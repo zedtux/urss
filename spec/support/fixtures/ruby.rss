@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Ruby News</title>
+    <link>http://www.ruby-lang.org/en/feeds/news.rss/</link>
+    <language>en-us</language>
+    <ttl>40</ttl>
+    <description>The latest news from Ruby-Lang.org.</description>
+    
+    
+        <item>
+          <title>Ruby 1.9.3-p194 is released</title>
+          <description>&lt;p&gt;Ruby 1.9.3-p194 is released.&lt;/p&gt;&lt;p&gt;This release include Security Fix for RubyGems: SSL server verification failure for remote repository.
+And many bugs are fixed in this release.&lt;/p&gt; &lt;h2&gt;&lt;a name=&quot;label-0&quot; id=&quot;label-0&quot;&gt;Security Fix for RubyGems: SSL server verification failure for remote repository&lt;/a&gt;&lt;/h2&gt;&lt;!-- RDLabel: &quot;Security Fix for RubyGems: SSL server verification failure for remote repository&quot; --&gt;&lt;p&gt;This release includes two security fixes in RubyGems.&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;Turn on verification of server SSL certs&lt;/li&gt;
+&lt;li&gt;Disallow redirects from https to http&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Users who uses https source in .gemrc or /etc/gemrc are encouraged to
+upgrade to 1.9.3-p194.&lt;/p&gt;&lt;p&gt;Following is excerpted from RubyGems 1.8.23 release note [1].&lt;/p&gt;&lt;p&gt;&quot;This release increases the security used when RubyGems is talking to
+an https server. If you use a custom RubyGems server over SSL, this
+release will cause RubyGems to no longer connect unless your SSL cert
+is globally valid.&lt;/p&gt;&lt;p&gt;You can configure SSL certificate usage in RubyGems through the :ssl_ca_cert and :ssl_verify_mode options in ~/.gemrc and /etc/gemrc.
+The recommended way is to set :ssl_ca_cert to the CA certificate for
+your server or a certificate bundle containing your CA certification.&lt;/p&gt;&lt;p&gt;You may also set :ssl_verify_mode to 0 to completely disable SSL
+certificate checks, but this is not recommended.&quot;&lt;/p&gt;&lt;p&gt;Credit to John Firebaugh for reporting this issue.&lt;/p&gt;&lt;p&gt;[1] &lt;a href=&quot;https://github.com/rubygems/rubygems/blob/1.8/History.txt&quot;&gt;&amp;lt;URL:https://github.com/rubygems/rubygems/blob/1.8/History.txt&amp;gt;&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;&lt;a name=&quot;label-1&quot; id=&quot;label-1&quot;&gt;Fixes&lt;/a&gt;&lt;/h2&gt;&lt;!-- RDLabel: &quot;Fixes&quot; --&gt;&lt;ul&gt;
+&lt;li&gt;Security Fix for RubyGems: SSL server verification failure for remote repository&lt;/li&gt;
+&lt;li&gt;other bug fixes&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;See &lt;a href=&quot;https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;amp;status_id=5&quot;&gt;tickets&lt;/a&gt; and &lt;a href=&quot;http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_194/ChangeLog&quot;&gt;ChangeLog&lt;/a&gt; for details.&lt;/p&gt;&lt;h2&gt;&lt;a name=&quot;label-2&quot; id=&quot;label-2&quot;&gt;Downloads&lt;/a&gt;&lt;/h2&gt;&lt;!-- RDLabel: &quot;Downloads&quot; --&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.bz2&quot;&gt;&amp;lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.bz2&amp;gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;SIZE:   9841223 bytes&lt;/li&gt;
+&lt;li&gt;MD5:    2278eff4cfed3cbc0653bc73085caa34&lt;/li&gt;
+&lt;li&gt;SHA256: a9d1ea9eaea075c60048369a63b35b3b5a06a30aa214a3d990e0bb71212db8fa&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.gz&quot;&gt;&amp;lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.gz&amp;gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;SIZE:   12432239 bytes&lt;/li&gt;
+&lt;li&gt;MD5:    bc0c715c69da4d1d8bd57069c19f6c0e&lt;/li&gt;
+&lt;li&gt;SHA256: 46e2fa80be7efed51bd9cdc529d1fe22ebc7567ee0f91db4ab855438cf4bd8bb&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.zip&quot;&gt;&amp;lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.zip&amp;gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;SIZE:   13898712 bytes&lt;/li&gt;
+&lt;li&gt;MD5:    77e67b15234e442d4a3dcc450bc70fea&lt;/li&gt;
+&lt;li&gt;SHA256: 77474cfb92385b3a0b4c346553048bc65bfe68d4f220128329671a0234cb124d&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+          <pubDate>Fri, 20 Apr 2012 03:19:04 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2012/04/20/ruby-1-9-3-p194-is-released/</guid>
+          <link>http://www.ruby-lang.org/en/news/2012/04/20/ruby-1-9-3-p194-is-released/</link>
+        </item>
+    
+        <item>
+          <title>RubyTeach 2012</title>
+          <description>&lt;p&gt;Vancouver, BC&lt;/p&gt;
+
+&lt;p&gt;May 29th to 31st, 2012&lt;/p&gt;
+
+&lt;p&gt;RubyTeach is part of DevTeach and it offer 3 days of training between May 29th and May 31st. A total of 11 sessions on Ruby and over 30 sessions on Web Development (jQuery, HTML5, CSS) and Agile. The best experts in the industry are presenting their knowledge and expertise. This is your chance to learn and network with the experts.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://devteach.com/RubyTeach/&quot;&gt;Learn more…&lt;/a&gt;&lt;/p&gt; </description>
+          <pubDate>Tue, 10 Apr 2012 18:53:05 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2012/04/10/rubyteach-2012/</guid>
+          <link>http://www.ruby-lang.org/en/news/2012/04/10/rubyteach-2012/</link>
+        </item>
+    
+        <item>
+          <title>Matz Earns the FSF's 2011 Free Software Award</title>
+          <description>&lt;p&gt;The Award for the Advancement of Free Software is given annually to an individual who has made a great contribution to the progress and development of free software, through activities that accord with the spirit of free software.&lt;/p&gt;
+
+&lt;p&gt;This year, it was given to Yukihiro Matsumoto (aka Matz), the creator of the Ruby programming language. Matz has worked on GNU, Ruby, and other free software for over 20 years…&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.fsf.org/news/2011-free-software-awards-announced&quot;&gt;Read the full article.&lt;/a&gt;&lt;/p&gt; </description>
+          <pubDate>Thu, 29 Mar 2012 13:55:25 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2012/03/29/matz-earns-the-fsfs-2011-free-software-award/</guid>
+          <link>http://www.ruby-lang.org/en/news/2012/03/29/matz-earns-the-fsfs-2011-free-software-award/</link>
+        </item>
+    
+        <item>
+          <title>Ruby 1.9.3-p125 is released</title>
+          <description>&lt;p&gt;Ruby 1.9.3-p125 is released.&lt;/p&gt;
+
+&lt;p&gt;This release include &lt;a href=&quot;http://www.ruby-lang.org/en/news/2012/02/16/security-fix-for-ruby-openssl-module-allow-0n-splitting-as-a-prevention-for-the-tls-beast-attack-/&quot;&gt;a security fixes of the Ruby OpenSSL extension&lt;/a&gt;.
+And many bugs are fixed in this release.&lt;/p&gt; &lt;p&gt;== Fixes&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.ruby-lang.org/en/news/2012/02/16/security-fix-for-ruby-openssl-module-allow-0n-splitting-as-a-prevention-for-the-tls-beast-attack-/&quot;&gt;Fix for Ruby OpenSSL module: Allow &quot;0/n splitting&quot; as a prevention for the TLS BEAST attack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fixed: LLVM/clang support &lt;a href=&quot;https://bugs.ruby-lang.org/issues/show/5076&quot;&gt;[Bug #5076]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fixed: GCC 4.7 support &lt;a href=&quot;https://bugs.ruby-lang.org/issues/show/5851&quot;&gt;[Bug #5851]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;other bug fixes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;See &lt;a href=&quot;https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;amp;status_id=5&quot;&gt;tickets&lt;/a&gt; and &lt;a href=&quot;http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_125/ChangeLog&quot;&gt;ChangeLog&lt;/a&gt; for details.&lt;/p&gt;
+
+&lt;p&gt;== Downloads&lt;/p&gt;
+
+&lt;p&gt;NOTE: Repackaged on 2012-02-17 02:04:00 UTC to fix &lt;a href=&quot;https://bugs.ruby-lang.org/issues/6040&quot;&gt;[Bug #6040]&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.bz2&quot;&gt;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.bz2&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SIZE:   9733962 bytes&lt;/li&gt;
+&lt;li&gt;MD5:    702529a7f8417ed79f628b77d8061aa5&lt;/li&gt;
+&lt;li&gt;SHA256: c67a59443052b5a9219eb4cee3892bdfbc6f250f0c8e214e02256a4cc7ef5526&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.gz&quot;&gt;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SIZE:   12278584 bytes&lt;/li&gt;
+&lt;li&gt;MD5:    e3ea86b9d3fc2d3ec867f66969ae3b92&lt;/li&gt;
+&lt;li&gt;SHA256: 8b3c035cf4f0ad6420f447d6a48e8817e5384d0504514939aeb156e251d44cce&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.zip&quot;&gt;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.zip&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SIZE:   13742164 bytes&lt;/li&gt;
+&lt;li&gt;MD5:    2cff031a8801d91a0a0ca8e9a83e2ec8&lt;/li&gt;
+&lt;li&gt;SHA256: c16423182227c765398723da2419e4e962076778ec5e39417fad564e413fde1d&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+          <pubDate>Thu, 16 Feb 2012 12:03:49 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2012/02/16/ruby-1-9-3-p125-is-released/</guid>
+          <link>http://www.ruby-lang.org/en/news/2012/02/16/ruby-1-9-3-p125-is-released/</link>
+        </item>
+    
+        <item>
+          <title>Security Fix for Ruby OpenSSL module: Allow "0/n splitting" as a prevention for the TLS BEAST attack.</title>
+          <description>&lt;p&gt;In OpenSSL, &lt;code&gt;SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS&lt;/code&gt; option for SSL connection
+is used to prevent TLS-CBC-IV vulnerability described at &lt;a href=&quot;http://www.openssl.org/~bodo/tls-cbc.txt&quot;&gt;[1]&lt;/a&gt;.  It's
+known issue of TLSv1/SSLv3 but it attracts lots of attention these days
+as BEAST attack &lt;a href=&quot;http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-3389&quot;&gt;[2]&lt;/a&gt; (CVE-2011-3389).  Ruby related topics are at our
+issue tracker &lt;a href=&quot;https://bugs.ruby-lang.org/5353&quot;&gt;[3]&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Until now Ruby OpenSSL extension uses &lt;code&gt;SSL_OP_ALL&lt;/code&gt; option, the combined
+option of OpenSSL for various bug workarounds that should be rather
+harmless, for all SSL connection by default.  And it only allows users
+to add other options so you could not remove the feature that is
+included in &lt;code&gt;SSL_OP_ALL&lt;/code&gt; option, like &lt;code&gt;SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS&lt;/code&gt;.
+ It was intentional as it didn't expose constants like
+&lt;code&gt;SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS&lt;/code&gt;, but we should allow to unset the
+option so that Ruby OpenSSL extension inserts empty fragments at the
+beginning of SSL connections (named &quot;0/n splitting&quot;) to prevent the TLS
+BEAST attack.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://mla.n-z.jp/?ruby-talk=393484&quot;&gt;This release&lt;/a&gt; defines additional constants and allows users to unset
+options in &lt;code&gt;SSL_OP_ALL&lt;/code&gt;.  Default option is still &lt;code&gt;SSL_OP_ALL&lt;/code&gt; but you can
+setup the SSLSocket with doing &quot;0/n splitting&quot; for BEAST prevention like
+this.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ctx = SSLContext.new
+ctx.options = OP_ALL &amp;amp; ~OP_DONT_INSERT_EMPTY_FRAGMENTS
+ctx.verify_mode = OpenSSL::SSL::VERIFY_PEER
+SSLSocket.new(socket, ctx)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Credit to Apple for reporting this issue.&lt;/p&gt;
+
+&lt;p&gt;NOTE: Some SSL endpoints are known to have a bug that cannot handle &quot;0/n
+splitting&quot; correctly so we (and OpenSSL) do not set this as a default
+option.  Please test SSL connectivity before enabling this in production
+environment.  If the other endpoint you're connecting cannot handle &quot;0/n
+splitting&quot;, you must use another workaround for preventing the TLS BEAST
+attack, like enforcing ciphersuite to use RC4.  For details, please find
+discussions and resources around CVE-2011-3389.&lt;/p&gt; </description>
+          <pubDate>Thu, 16 Feb 2012 11:20:41 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2012/02/16/security-fix-for-ruby-openssl-module-allow-0n-splitting-as-a-prevention-for-the-tls-beast-attack-/</guid>
+          <link>http://www.ruby-lang.org/en/news/2012/02/16/security-fix-for-ruby-openssl-module-allow-0n-splitting-as-a-prevention-for-the-tls-beast-attack-/</link>
+        </item>
+    
+        <item>
+          <title>Denial of service attack was found for Ruby's Hash algorithm (CVE-2011-4815)</title>
+          <description>&lt;h4&gt;Impact&lt;/h4&gt;
+
+&lt;p&gt;This  is  something related  to  computational complexity.   Specially
+crafted series of strings that intentionally collide their hash values
+each other  was found.   With such sequences  an attacker can  issue a
+denial  of  service attack  by,  for  instance,  giving them  as  POST
+parameters of HTTP requests for your Rails application.&lt;/p&gt; &lt;h4&gt;Detailed description&lt;/h4&gt;
+
+&lt;p&gt;The situation  is similar to the one  found for Perl in  2003.  In 1.8
+series of Ruby, we use a deterministic hash function to hash a string.
+Here the &quot;deterministic&quot;  means no other bits of  information than the
+input string itself is involved to  generate a hash value.  So you can
+precalculate a string's hash value beforehand.  By collecting a series
+of strings  that have  the identical hash  value, an attacker  can let
+ruby  process collide  bins  of hash  tables  (including &lt;code&gt;Hash&lt;/code&gt;  class
+instances).   Hash   tables'  amortized  O(1)   attribute  depends  on
+uniformity  of distribution of  hash values.   By giving  such crafted
+input, an attacker can let  hash tables work much slower than expected
+(namely O(n&lt;sup&gt;2&lt;/sup&gt;) to construct a n-elements table this case).&lt;/p&gt;
+
+&lt;h4&gt;Affected versions&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ruby 1.8.7-p352 and all prior versions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All Ruby 1.9 series are not  affected by this kind of attack.  They do
+not share hash implementations with Ruby 1.8 series.&lt;/p&gt;
+
+&lt;h4&gt;Solution&lt;/h4&gt;
+
+&lt;p&gt;Our  solution  is  to  scramble  the  string  hash  function  by  some
+PRNG-generated random bits.  By doing so a string's hashed value is no
+longer deterministic.   That is, a &lt;code&gt;String#hash&lt;/code&gt;  result is consistent
+only for current process lifetime and will generate a different number
+for the next boot.  To break  this situation an attacker must create a
+set of  strings which are robust  to this kind of  scrambling. This is
+believed to be quite difficult.&lt;/p&gt;
+
+&lt;p&gt;Please upgrade to &lt;a href=&quot;http://mla.n-z.jp/?ruby-talk=391606&quot;&gt;ruby 1.8.7-p357&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4&gt;Notes&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Bear  in  mind  that  the  solution &lt;em&gt;does&lt;/em&gt;  &lt;em&gt;not&lt;/em&gt;  &lt;em&gt;mean&lt;/em&gt;  our  hash
+algorithm is  cryptographically secure.  To put it  simple, we fixed
+the  hash  table  but  we  didn't fix  &lt;code&gt;String#hash&lt;/code&gt;  weakness.   An
+attacker could still exploit it once he / she got a pair of a string
+and its  hash value returned  from &lt;code&gt;String#hash&lt;/code&gt;.  You  &lt;em&gt;must&lt;/em&gt; &lt;em&gt;not&lt;/em&gt;
+disclose  &lt;code&gt;String#hash&lt;/code&gt; outputs.   If you  need to  do  such things,
+consider using  secure hash algorithms instead.  Some  of them (such
+as SHA256) are provided in Ruby's standard library.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;For  those who  knows alternative  hash algorithms  inside  our code
+base: we  do not  support them (they  are disabled by  default).  By
+choosing them  we consider  you can read  C, and you  can understand
+what was wrong with the default  one.  Make sure that your choice is
+safe at your own risk.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Credit&lt;/h4&gt;
+
+&lt;p&gt;Credit  to Alexander  Klink  &lt;a href=&quot;&amp;#x6D;&amp;#x61;&amp;#105;&amp;#108;&amp;#x74;&amp;#111;:&amp;#097;&amp;#108;&amp;#101;&amp;#120;&amp;#x61;&amp;#110;d&amp;#x65;&amp;#x72;&amp;#x2E;&amp;#107;&amp;#x6C;&amp;#105;&amp;#x6E;&amp;#107;&amp;#064;&amp;#x6E;&amp;#x72;&amp;#117;&amp;#110;&amp;#x73;&amp;#046;&amp;#x63;&amp;#x6F;m&quot;&gt;&amp;#097;&amp;#108;&amp;#101;&amp;#120;&amp;#x61;&amp;#110;d&amp;#x65;&amp;#x72;&amp;#x2E;&amp;#107;&amp;#x6C;&amp;#105;&amp;#x6E;&amp;#107;&amp;#064;&amp;#x6E;&amp;#x72;&amp;#117;&amp;#110;&amp;#x73;&amp;#046;&amp;#x63;&amp;#x6F;m&lt;/a&gt; and  Julian
+  Waelde  &lt;a href=&quot;&amp;#x6D;&amp;#097;&amp;#x69;&amp;#108;&amp;#x74;&amp;#111;:&amp;#x6A;&amp;#x77;&amp;#x61;&amp;#x65;&amp;#108;&amp;#100;e&amp;#064;&amp;#x63;d&amp;#099;&amp;#x2E;&amp;#x69;&amp;#110;&amp;#x66;&amp;#x6F;&amp;#114;&amp;#109;&amp;#097;&amp;#116;&amp;#105;&amp;#x6B;&amp;#x2E;&amp;#x74;&amp;#117;-&amp;#100;&amp;#097;&amp;#x72;m&amp;#x73;&amp;#x74;&amp;#097;&amp;#x64;&amp;#x74;.&amp;#100;&amp;#101;&quot;&gt;&amp;#x6A;&amp;#x77;&amp;#x61;&amp;#x65;&amp;#108;&amp;#100;e&amp;#064;&amp;#x63;d&amp;#099;&amp;#x2E;&amp;#x69;&amp;#110;&amp;#x66;&amp;#x6F;&amp;#114;&amp;#109;&amp;#097;&amp;#116;&amp;#105;&amp;#x6B;&amp;#x2E;&amp;#x74;&amp;#117;-&amp;#100;&amp;#097;&amp;#x72;m&amp;#x73;&amp;#x74;&amp;#097;&amp;#x64;&amp;#x74;.&amp;#100;&amp;#101;&lt;/a&gt; for  reporting this
+  issue.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EDIT&lt;/strong&gt; some related links:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4815&quot;&gt;CVE-2011-4815&lt;/a&gt; is assigned to this issue.&lt;/li&gt;
+&lt;li&gt;oCERT.org published &lt;a href=&quot;http://www.ocert.org/advisories/ocert-2011-003.html&quot;&gt;an advisory&lt;/a&gt; about it.&lt;/li&gt;
+&lt;li&gt;JRuby released &lt;a href=&quot;http://jruby.org/2011/12/27/jruby-1-6-5-1&quot;&gt;version 1.6.5.1&lt;/a&gt; to fix the identical issue.  Other ruby alternatives might also suffer.&lt;/li&gt;
+&lt;li&gt;Twitter account &lt;a href=&quot;https://twitter.com/#!/hashDoS&quot;&gt;@hashDoS&lt;/a&gt; collects informations about hash colliision attacks.&lt;/li&gt;
+&lt;/ul&gt;</description>
+          <pubDate>Wed, 28 Dec 2011 13:25:41 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2011/12/28/denial-of-service-attack-was-found-for-rubys-hash-algorithm-cve-2011-4815/</guid>
+          <link>http://www.ruby-lang.org/en/news/2011/12/28/denial-of-service-attack-was-found-for-rubys-hash-algorithm-cve-2011-4815/</link>
+        </item>
+    
+        <item>
+          <title>Ruby 1.9.3 p0 is released</title>
+          <description>&lt;p&gt;Ruby 1.9.3 p0 is released. This is the latest stable version of 1.9 series.&lt;/p&gt;&lt;p&gt;See &lt;a href=&quot;http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_0/ChangeLog&quot;&gt;ChangeLogs&lt;/a&gt; and &lt;a href=&quot;http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_0/NEWS&quot;&gt;NEWS&lt;/a&gt; for the descriptions.&lt;/p&gt; &lt;h2&gt;&lt;a name=&quot;label-0&quot; id=&quot;label-0&quot;&gt;Locations&lt;/a&gt;&lt;/h2&gt;&lt;!-- RDLabel: &quot;Locations&quot; --&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.bz2&quot;&gt;&amp;lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.bz2&amp;gt;&lt;/a&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;a name=&quot;label-1&quot; id=&quot;label-1&quot;&gt;SIZE:   9554576 bytes&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SIZE:   9554576 bytes&quot; --&gt;
+&lt;dt&gt;&lt;a name=&quot;label-2&quot; id=&quot;label-2&quot;&gt;MD5:    65401fb3194cdccd6c1175ab29b8fdb8&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;MD5:    65401fb3194cdccd6c1175ab29b8fdb8&quot; --&gt;
+&lt;dt&gt;&lt;a name=&quot;label-3&quot; id=&quot;label-3&quot;&gt;SHA256: ca8ba4e564fc5f98b210a5784e43dfffef9471222849e46f8e848b37e9f38acf&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SHA256: ca8ba4e564fc5f98b210a5784e43dfffef9471222849e46f8e848b37e9f38acf&quot; --&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.gz&quot;&gt;&amp;lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.gz&amp;gt;&lt;/a&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;a name=&quot;label-4&quot; id=&quot;label-4&quot;&gt;SIZE:   12223217 bytes&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SIZE:   12223217 bytes&quot; --&gt;
+&lt;dt&gt;&lt;a name=&quot;label-5&quot; id=&quot;label-5&quot;&gt;MD5:    8e2fef56185cfbaf29d0c8329fc77c05&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;MD5:    8e2fef56185cfbaf29d0c8329fc77c05&quot; --&gt;
+&lt;dt&gt;&lt;a name=&quot;label-6&quot; id=&quot;label-6&quot;&gt;SHA256: 3b910042e3561f4296fd95d96bf30322e53eecf083992e5042a7680698cfa34e&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SHA256: 3b910042e3561f4296fd95d96bf30322e53eecf083992e5042a7680698cfa34e&quot; --&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.zip&quot;&gt;&amp;lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.zip&amp;gt;&lt;/a&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;a name=&quot;label-7&quot; id=&quot;label-7&quot;&gt;SIZE:   13691314 bytes&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SIZE:   13691314 bytes&quot; --&gt;
+&lt;dt&gt;&lt;a name=&quot;label-8&quot; id=&quot;label-8&quot;&gt;MD5:    437ac529a7872c8dcc956eab8e7e6f76&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;MD5:    437ac529a7872c8dcc956eab8e7e6f76&quot; --&gt;
+&lt;dt&gt;&lt;a name=&quot;label-9&quot; id=&quot;label-9&quot;&gt;SHA256: 1be16d0172e9cf9e5078a7bee2465a9f3af431920e1e3d9417a4fc2ee074bca4&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SHA256: 1be16d0172e9cf9e5078a7bee2465a9f3af431920e1e3d9417a4fc2ee074bca4&quot; --&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+          <pubDate>Mon, 31 Oct 2011 03:27:41 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2011/10/31/ruby-1-9-3-p0-is-released/</guid>
+          <link>http://www.ruby-lang.org/en/news/2011/10/31/ruby-1-9-3-p0-is-released/</link>
+        </item>
+    
+        <item>
+          <title>Upcoming Ruby Programming Competitions with Matz - Grand Prize - 1,000,000 JPY!</title>
+          <description>&lt;p&gt;Dear Ruby Enthusiasts:&lt;/p&gt;
+
+&lt;p&gt;The Government of Fukuoka, Japan together with &quot;Matz&quot; Matsumoto would
+like to invite you to enter the following Ruby competitions. If you
+have developed an interesting Ruby program, please be encouraged to
+apply.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Silicon Valley Competition (November 3, 2011 in Silicon Valley),
+Entry Deadline: October 17, 2011&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Selected finalists will present their Ruby programs in front of Matz
+on November 3, 2011 in Silicon Valley (exact location to be announced
+later). Matz, together with a panel of judges, will select the winner.
+The winner will be invited to Fukuoka, Japan for an award ceremony to
+be held in March 2012 (hotel and airfare paid). If you enter the
+Silicon Valley competition, you will also be automatically entered in
+the Fukuoka competition described below.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fukuoka Competition - Grand Prize - 1 Million Yen! (March 2012 in
+Fukuoka, Japan), Entry Deadline: November 15, 2011&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can enter the Fukuoka competition exclusively, or enter the above
+Silicon Valley Competition and be automatically entered in the Fukuoka
+Competition. Matz and a group of panelists will select the winners of
+the Fukuoka Competition. The grand prize winner will be invited to
+attend the award ceremony in Fukuoka, Japan in March 2012 (hotel and
+airfare paid). The grand prize for the Fukuoka Competition is 1
+million yen(approximately $13,000!). Past grand prize winners include
+Rhomobile (USA) and APEC Climate Center (Korea).&lt;/p&gt;
+
+&lt;p&gt;Programs entered in these competitions do not have to be written
+entirely in Ruby but should take advantage of the unique
+characteristics of Ruby. Projects must have been developed or
+completed within the past 12 months to be eligible.&lt;/p&gt;
+
+&lt;p&gt;Please visit the following Fukuoka website for additional details or to enter:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.myfukuoka.com/events/2012-fukuoka-ruby-award-competition&quot;&gt;http://www.myfukuoka.com/events/2012-fukuoka-ruby-award-competition&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Cheers.&lt;/p&gt; </description>
+          <pubDate>Wed, 12 Oct 2011 14:42:22 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2011/10/12/upcoming-ruby-programming-competitions-with-matz---grand-prize---1000000-jpy/</guid>
+          <link>http://www.ruby-lang.org/en/news/2011/10/12/upcoming-ruby-programming-competitions-with-matz---grand-prize---1000000-jpy/</link>
+        </item>
+    
+        <item>
+          <title>Plans for 1.8.7</title>
+          <description>&lt;p&gt;Hello, and thank you for your getting into our community.&lt;/p&gt;
+
+&lt;p&gt;I know most of  you more or less use version 1.8.7  of Ruby today.  It
+was released  in 2008 and was  a state-of-art Ruby  release back then.
+-- I am  proud to say  it is no  longer.  Ruby's core  developers have
+been actively working  on their new version,  1.9,  and they are about
+to  release new 1.9.3.   I have  been using  1.9 for  years and  now I
+cannot  go  back to  the  days  without  it.  Rich  features.   Faster
+execution.  Rubygems integrated.  Rails works perfectly.  I cannot but
+say it is totally wonderful.  Everyone please, use 1.9.&lt;/p&gt;
+
+&lt;p&gt;But at  the same time I  know you cannot  switch to 1.9 right  now for
+various  reasons.    Maybe  you   have  already  deployed  your
+application with 1.8.7.  Maybe you use a 3rd party library and that is
+for 1.8.7 only.  Or maybe your Linux distribution only supports 1.8.7.
+So I hereby announce  you how long you can stick to  it.  It is OK if you
+are using 1.8.7 today but after a while, it will be shut down.&lt;/p&gt;
+
+&lt;p&gt;Please be ready.&lt;/p&gt;
+
+&lt;p&gt;Schedule:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;We continue to provide normal  maintenance for 1.8.7 as usual, until
+June  2012.   You can  safely  assume  we  provide bugfixes  and  no
+incompatibility shall be introduced.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;After that we stop bugfixes.   We still provide security fixes until
+June 2013, in case you are still using 1.8.7.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;We will no longer support 1.8.7 in all senses after June 2013.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt; </description>
+          <pubDate>Thu, 06 Oct 2011 07:48:38 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2011/10/06/plans-for-1-8-7/</guid>
+          <link>http://www.ruby-lang.org/en/news/2011/10/06/plans-for-1-8-7/</link>
+        </item>
+    
+        <item>
+          <title>Ruby 1.9.3 rc1 has been released</title>
+          <description>&lt;p&gt;Ruby 1.9.3 rc1 has been released. This is a second preview of next version and there're still minor known issues.
+But it will be fixed in next release, ruby 1.9.3-p0.&lt;/p&gt;&lt;p&gt;See &lt;a href=&quot;http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_rc1/ChangeLog&quot;&gt;ChangeLogs&lt;/a&gt; and &lt;a href=&quot;http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_rc1/NEWS&quot;&gt;NEWS&lt;/a&gt; for the descriptions.&lt;/p&gt; &lt;h2&gt;&lt;a name=&quot;label-0&quot; id=&quot;label-0&quot;&gt;Locations&lt;/a&gt;&lt;/h2&gt;&lt;!-- RDLabel: &quot;Locations&quot; --&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.bz2&quot;&gt;&amp;lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.bz2&amp;gt;&lt;/a&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;a name=&quot;label-1&quot; id=&quot;label-1&quot;&gt;SIZE:   9552727 bytes&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SIZE:   9552727 bytes&quot; --&gt;
+&lt;dt&gt;&lt;a name=&quot;label-2&quot; id=&quot;label-2&quot;&gt;MD5:    26f0dc51ad981e12c58b48380112fa4d&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;MD5:    26f0dc51ad981e12c58b48380112fa4d&quot; --&gt;
+&lt;dt&gt;&lt;a name=&quot;label-3&quot; id=&quot;label-3&quot;&gt;SHA256: 951a8810086abca0e200f81767a518ee2730d6dc9b0cc2c7e3587dcfc3bf5fc8&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SHA256: 951a8810086abca0e200f81767a518ee2730d6dc9b0cc2c7e3587dcfc3bf5fc8&quot; --&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.gz&quot;&gt;&amp;lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.gz&amp;gt;&lt;/a&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;a name=&quot;label-4&quot; id=&quot;label-4&quot;&gt;SIZE:   12224459 bytes&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SIZE:   12224459 bytes&quot; --&gt;
+&lt;dt&gt;&lt;a name=&quot;label-5&quot; id=&quot;label-5&quot;&gt;MD5:    46a2a481536ca0ca0b80ad2b091df68e&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;MD5:    46a2a481536ca0ca0b80ad2b091df68e&quot; --&gt;
+&lt;dt&gt;&lt;a name=&quot;label-6&quot; id=&quot;label-6&quot;&gt;SHA256: bb1ae474d30e8681df89599520e766270c8e16450efdc01e099810f5e401eb94&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SHA256: bb1ae474d30e8681df89599520e766270c8e16450efdc01e099810f5e401eb94&quot; --&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.zip&quot;&gt;&amp;lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.zip&amp;gt;&lt;/a&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;a name=&quot;label-7&quot; id=&quot;label-7&quot;&gt;SIZE:   13696517 bytes&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SIZE:   13696517 bytes&quot; --&gt;
+&lt;dt&gt;&lt;a name=&quot;label-8&quot; id=&quot;label-8&quot;&gt;MD5:    9c787f5e4963e54d1a11985a73467342&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;MD5:    9c787f5e4963e54d1a11985a73467342&quot; --&gt;
+&lt;dt&gt;&lt;a name=&quot;label-9&quot; id=&quot;label-9&quot;&gt;SHA256: 8e9219b7e6f78a9e171740cbbb3787047383c281c290504dd0e4d8318607a74b&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SHA256: 8e9219b7e6f78a9e171740cbbb3787047383c281c290504dd0e4d8318607a74b&quot; --&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+          <pubDate>Sat, 24 Sep 2011 23:23:42 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2011/09/24/ruby-1-9-3-rc1-has-been-released/</guid>
+          <link>http://www.ruby-lang.org/en/news/2011/09/24/ruby-1-9-3-rc1-has-been-released/</link>
+        </item>
+    
+    
+  </channel>
+</rss>
