@@ -4,6 +4,7 @@ require "nokogiri"
 
 require "urss/rss"
 require "urss/entry"
+require "urss/media"
 
 module Urss
   class NotANokogiriInstance < StandardError; end
