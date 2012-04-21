@@ -52,6 +52,77 @@ describe Urss do
       end
     end
 
+    context "RSS 0.9" do
+      context "when parsing the rss09.xml example file at http://slashdot.org/" do
+        before { @parsed_rss = subject.at("http://slashdot.org/") }
+        it "should return an instance of Urss::Rss" do
+          @parsed_rss.should be_an_instance_of(Urss::Rss)
+        end
+        describe "Urss::Rss" do
+          describe "title" do
+            it "should return \"Slashdot\"" do
+              @parsed_rss.title.should == "Slashdot"
+            end
+          end
+          describe "url" do
+            it "should return \"http://slashdot.org/\"" do
+              @parsed_rss.url.should == "http://slashdot.org/"
+            end
+          end
+          describe "description" do
+            it "should return \"News for nerds, stuff that matters\"" do
+              @parsed_rss.description.should == "News for nerds, stuff that matters"
+            end
+          end
+          describe "updated_at" do
+            it "should return \"2005-09-09T02:52:31-07:00\"" do
+              @parsed_rss.updated_at.should == "2005-09-09T02:52:31-07:00"
+            end
+          end
+          describe"entries" do
+            describe "size" do
+              it "should be 10" do
+                @parsed_rss.entries.size.should be 10
+              end
+            end
+            describe "first" do
+              before { @first_parsed_rss = @parsed_rss.entries.first }
+              describe "title" do
+                it "should return \"JBoss - A Developer's Notebook\"" do
+                  @first_parsed_rss.title.should == "JBoss - A Developer's Notebook"
+                end
+              end
+              describe "url" do
+                it "should return \"http://books.slashdot.org/article.pl?sid=05/08/29/1319236&amp;from=rss\"" do
+                  @first_parsed_rss.url.should == "http://books.slashdot.org/article.pl?sid=05/08/29/1319236&from=rss"
+                end
+              end
+              describe "comments_url" do
+                it "should be empty" do
+                  @first_parsed_rss.comments_url.should be_empty
+                end
+              end
+              describe "created_at" do
+                it "should return \"2005-09-09T02:52:31-07:00\"" do
+                  @first_parsed_rss.created_at.should == "2005-09-09T02:52:31-07:00"
+                end
+              end
+              describe "author" do
+                it "should be empty" do
+                  @first_parsed_rss.author.should be_empty
+                end
+              end
+              describe "categories" do
+                it "should be empty" do
+                  @first_parsed_rss.categories.should be_empty
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+
     context "RSS 2.0" do
       context "without media" do
         context "when parsing the rss20.xml example file at http://tech.rufy.com" do

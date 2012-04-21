@@ -4,14 +4,17 @@ class Urss::Entry
   attr_accessor :title, :url, :comments_url, :created_at, :author, :categories, :content, :medias
 
   # ~~~~ Class methods ~~~~
-  def self.build(nokogiri_instance)
+  def self.build(nokogiri_instance, namespace=nil)
     raise Urss::NotANokogiriInstance unless nokogiri_instance.is_a?(Nokogiri::XML::Element)
 
     entry = self.new
-    entry.title = nokogiri_instance.xpath("./title").text
-    entry.url = nokogiri_instance.xpath("./link").text
+    entry.title = nokogiri_instance.xpath("./#{namespace}title").text
+    entry.url = nokogiri_instance.xpath("./#{namespace}link").text
     entry.comments_url = nokogiri_instance.xpath("./comments").text
     entry.created_at = nokogiri_instance.xpath("./pubDate").text
+    if entry.created_at.nil? || entry.created_at.empty?
+      entry.created_at = nokogiri_instance.xpath("./dc:date").text
+    end
     entry.author = nokogiri_instance.xpath("./dc:creator", nokogiri_instance.namespaces).text
     entry.categories = nokogiri_instance.search("category").collect(&:text).join(", ")
     entry.content = nokogiri_instance.xpath("./description").text

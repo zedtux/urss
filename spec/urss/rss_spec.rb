@@ -27,13 +27,12 @@ describe Urss::Rss do
       subject.should respond_to(:entries)
       subject.should respond_to(:entries=)
     end
-
-    it "should respond to build" do
-      subject.class.should respond_to(:build)
-    end
   end
 
   describe "Class Methods" do
+    it "should respond to build" do
+      subject.class.should respond_to(:build)
+    end
     describe "#build" do
       describe "argument" do
         it "should raise an Urss::NotANokogiriInstance exception when passing something different than a Nokogiri::XML::Document instance" do

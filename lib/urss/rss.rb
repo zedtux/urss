@@ -7,13 +7,21 @@ class Urss::Rss
   def self.build(nokogiri_instance)
     raise Urss::NotANokogiriInstance unless nokogiri_instance.is_a?(Nokogiri::XML::Document)
 
-    rss = self.new
-    rss.title = nokogiri_instance.xpath("//channel/*[local-name()='title']").text
-    rss.url = nokogiri_instance.xpath("//channel/*[local-name()='link']").text
-    rss.description = nokogiri_instance.xpath("//channel/*[local-name()='description']").text
-    rss.updated_at = nokogiri_instance.xpath("//channel/*[local-name()='pubDate']").text
+    namespace = nokogiri_instance.namespaces["xmlns"] ? "xmlns:" : nil
 
-    nokogiri_instance.xpath("//item").each {|item| rss.entries << Urss::Entry.build(item)}
+    rss = self.new
+    rss.title = nokogiri_instance.xpath("//#{namespace}channel/#{namespace}title").text
+    rss.url = nokogiri_instance.xpath("//#{namespace}channel/#{namespace}link").text
+    rss.description = nokogiri_instance.xpath("//#{namespace}channel/#{namespace}description").text
+    rss.updated_at = nokogiri_instance.xpath("//#{namespace}channel/#{namespace}pubDate").text
+    if rss.updated_at.nil? || rss.updated_at.empty?
+      begin
+        rss.updated_at = nokogiri_instance.xpath("//#{namespace}channel/dc:date").text
+      rescue Nokogiri::XML::XPath::SyntaxError
+        # No pubDate or date field
+      end
+    end
+    nokogiri_instance.xpath("//#{namespace}item").each {|item| rss.entries << Urss::Entry.build(item, namespace)}
 
     rss
   end
