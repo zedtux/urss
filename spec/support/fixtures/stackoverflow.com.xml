@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Stack Overflow</title>
+    <link rel="self" href="http://stackoverflow.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="http://stackoverflow.com/questions" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2012-04-22T08:52:09Z</updated>
+    <id>http://stackoverflow.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://stackoverflow.com/q/10264840</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">How can I change the login form&#39;s look in wordpress</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="wordpress"/>
+        <author>
+            <name>user1349047</name>
+            <uri>http://stackoverflow.com/users/1349047</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10264840/how-can-i-change-the-login-forms-look-in-wordpress" />
+        <published>2012-04-22T02:56:37Z</published>
+        <updated>2012-04-22T08:51:34Z</updated>
+        <summary type="html">
+            &lt;p&gt;I am building a wordpress site for a client but my client wants to have a different look of login screen, so my question is how can i change the look of default wordpress login form&#39;s look. I don&#39;t want to change any core files, is there any way to change the look of the login form without changing the core files.
+Any kind of help will be highly appreciated, thanks!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10259316</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">horizontal Text on a circle</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/>
+        <author>
+            <name>user1318171</name>
+            <uri>http://stackoverflow.com/users/1318171</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10259316/horizontal-text-on-a-circle" />
+        <published>2012-04-21T13:26:14Z</published>
+        <updated>2012-04-22T08:51:33Z</updated>
+        <summary type="html">
+            &lt;p&gt;Hello i want to place several Text around a circle, but dont want to rotate it, the Text should be horizontal, like a speedometer. Rotate canvas or TextOnPath rotate the text, so its not horizontal.&lt;/p&gt;
+
+&lt;p&gt;How can i do this in Android?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;        for (int i = minValue; i &amp;lt;= maxValue; ++i) {
+        float y1 = scaleRect.top;
+        float y2 = y1 - 0.020f;
+
+        canvas.drawLine(0.5f, y1, 0.5f, y2, scalePaint);
+
+            if (i%2==0) {
+                String valueString = Integer.toString(i);
+                canvas.drawText(valueString, 0.5f, y2 - 0.015f, scalePaint);
+        }
+
+        canvas.rotate(degreesPerNick, 0.5f, 0.5f);
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10266019</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Remove duplicate node with attribute in XML using XSLT</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="xml"/><category scheme="http://stackoverflow.com/feeds/tags" term="xslt"/>
+        <author>
+            <name>John</name>
+            <uri>http://stackoverflow.com/users/1336019</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10266019/remove-duplicate-node-with-attribute-in-xml-using-xslt" />
+        <published>2012-04-22T07:22:48Z</published>
+        <updated>2012-04-22T08:51:16Z</updated>
+        <summary type="html">
+            &lt;p&gt;I have this input XML which needs to be transformed with an xslt &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;root&amp;gt;
+    &amp;lt;node id=&quot;a&quot;&amp;gt;
+        &amp;lt;section id=&quot;a_1&quot;&amp;gt;
+            &amp;lt;item id=&quot;0&quot;&amp;gt;
+                &amp;lt;attribute&amp;gt;
+                    &amp;lt;color&amp;gt;Red&amp;lt;/color&amp;gt;
+                &amp;lt;/attribute&amp;gt;
+            &amp;lt;/item&amp;gt;
+        &amp;lt;/section&amp;gt;
+        &amp;lt;section id=&quot;a_2&quot;&amp;gt;
+            &amp;lt;item id=&quot;0&quot;&amp;gt;
+                &amp;lt;attribute&amp;gt;
+                    &amp;lt;color&amp;gt;Red&amp;lt;/color&amp;gt;
+                &amp;lt;/attribute&amp;gt;
+            &amp;lt;/item&amp;gt;
+        &amp;lt;/section&amp;gt;
+    &amp;lt;/node&amp;gt;
+    &amp;lt;node id=&quot;b&quot;&amp;gt;
+        &amp;lt;section id=&quot;b_1&quot; method=&quot;create&quot;&amp;gt;
+            &amp;lt;user id=&quot;b_1a&quot;&amp;gt;
+                &amp;lt;attribute&amp;gt;
+                    &amp;lt;name&amp;gt;John&amp;lt;/name&amp;gt;
+                &amp;lt;/attribute&amp;gt;
+            &amp;lt;/user&amp;gt;
+            &amp;lt;user id=&quot;b_1b&quot;&amp;gt;
+                &amp;lt;attribute&amp;gt;a&amp;lt;/attribute&amp;gt;
+            &amp;lt;/user&amp;gt;
+        &amp;lt;/section&amp;gt;
+        &amp;lt;section id=&quot;b_1&quot; method=&quot;create&quot;&amp;gt;
+            &amp;lt;user id=&quot;b_1c&quot;&amp;gt;
+                &amp;lt;attribute&amp;gt;a&amp;lt;/attribute&amp;gt;
+            &amp;lt;/user&amp;gt;
+        &amp;lt;/section&amp;gt;
+        &amp;lt;section id=&quot;b_2&quot;&amp;gt;
+            &amp;lt;user id=&quot;b_1a&quot;&amp;gt;
+                &amp;lt;attribute&amp;gt;
+                    &amp;lt;name&amp;gt;John&amp;lt;/name&amp;gt;
+                &amp;lt;/attribute&amp;gt;
+            &amp;lt;/user&amp;gt;
+        &amp;lt;/section&amp;gt;
+    &amp;lt;/node&amp;gt;
+&amp;lt;/root&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Expected output:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;root&amp;gt;
+    &amp;lt;node id=&quot;a&quot;&amp;gt;
+        &amp;lt;section id=&quot;a_1&quot;&amp;gt;
+            &amp;lt;item id=&quot;0&quot;&amp;gt;
+                &amp;lt;attribute&amp;gt;
+                    &amp;lt;color&amp;gt;Red&amp;lt;/color&amp;gt;
+                &amp;lt;/attribute&amp;gt;
+            &amp;lt;/item&amp;gt;
+        &amp;lt;/section&amp;gt;
+        &amp;lt;section id=&quot;a_2&quot;&amp;gt;
+            &amp;lt;item id=&quot;0&quot;&amp;gt;
+                &amp;lt;attribute&amp;gt;
+                    &amp;lt;color&amp;gt;Red&amp;lt;/color&amp;gt;
+                &amp;lt;/attribute&amp;gt;
+            &amp;lt;/item&amp;gt;
+        &amp;lt;/section&amp;gt;
+    &amp;lt;/node&amp;gt;
+    &amp;lt;node id=&quot;b&quot;&amp;gt;
+        &amp;lt;section id=&quot;b_1&quot; method=&quot;create&quot;&amp;gt;
+            &amp;lt;user id=&quot;b_1a&quot;&amp;gt;
+                &amp;lt;attribute&amp;gt;
+                    &amp;lt;name&amp;gt;John&amp;lt;/name&amp;gt;
+                &amp;lt;/attribute&amp;gt;
+            &amp;lt;/user&amp;gt;
+            &amp;lt;user id=&quot;b_1b&quot;&amp;gt;
+                &amp;lt;attribute&amp;gt;a&amp;lt;/attribute&amp;gt;
+            &amp;lt;/user&amp;gt;
+        &amp;lt;/section&amp;gt;
+
+        &amp;lt;section id=&quot;b_2&quot;&amp;gt;
+            &amp;lt;user id=&quot;b_1a&quot;&amp;gt;
+                &amp;lt;attribute&amp;gt;
+                    &amp;lt;name&amp;gt;John&amp;lt;/name&amp;gt;
+                &amp;lt;/attribute&amp;gt;
+            &amp;lt;/user&amp;gt;
+        &amp;lt;/section&amp;gt;
+    &amp;lt;/node&amp;gt;
+&amp;lt;/root&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It does not matter which node will be eliminated, as long as it has the same element name, id and method, one of them will be removed.
+Any idea what the xsl looks like ? Thanks very much. &lt;/p&gt;
+
+&lt;p&gt;cheers,
+John&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10266540</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">LOAD DATA not available; fgetcsv times out; alternatives?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="data"/><category scheme="http://stackoverflow.com/feeds/tags" term="load"/><category scheme="http://stackoverflow.com/feeds/tags" term="timeout"/><category scheme="http://stackoverflow.com/feeds/tags" term="fgetcsv"/>
+        <author>
+            <name>Austen Osborne</name>
+            <uri>http://stackoverflow.com/users/1103518</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10266540/load-data-not-available-fgetcsv-times-out-alternatives" />
+        <published>2012-04-22T08:50:53Z</published>
+        <updated>2012-04-22T08:50:53Z</updated>
+        <summary type="html">
+            &lt;p&gt;I have a site where a csv of racehorse data is to be uploaded once a week.  The CSV contains the details of about 19,000 racehorses currently registered in the UK and is about 1.3MB in size, on average.  I have a script that processes that csv and either updates the horse if it exists and the ratings data has changed, or adds it if it doesn&#39;t exist.  If a horse is unchanged, it skips to the next one.  The script works, as it was running on the host I use as a test.  It took 5 or 6 minutes to run (less than ideal, I know), but it worked.&lt;/p&gt;
+
+&lt;p&gt;However, we&#39;re now testing on the staging version of the client&#39;s host, and it&#39;s running for 15 minutes and then returning a 504 timeout.  We&#39;ve tweaked htaccess and php.ini settings as much as we&#39;re able ... no joy.&lt;/p&gt;
+
+&lt;p&gt;The host is in a shared environment, so they tell me that MySQL&#39;s LOAD DATA is unavailable to us.&lt;/p&gt;
+
+&lt;p&gt;What other alternative approaches would you try?  Or is there a way of splitting the csv into chunks and running a process on each one in turn, for example?&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+
+&lt;p&gt;Austen&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10266539</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">superfish not working with Roundabout slider</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="css"/><category scheme="http://stackoverflow.com/feeds/tags" term="wordpress"/><category scheme="http://stackoverflow.com/feeds/tags" term="superfish"/>
+        <author>
+            <name>Muhammad Ahsan</name>
+            <uri>http://stackoverflow.com/users/197936</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10266539/superfish-not-working-with-roundabout-slider" />
+        <published>2012-04-22T08:50:48Z</published>
+        <updated>2012-04-22T08:50:48Z</updated>
+        <summary type="html">
+            &lt;p&gt;As soon as i have added and changed the css for roundabout, my superfish menu is not displaying any dropdown, here is the css for superfish and roundabout&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;.sf-menu, .sf-menu * {list-style:none; margin:0; padding:0;}
+
+.sf-menu {line-height:1; z-index:99999;}
+
+.sf-menu ul {position:absolute; top:-999em;  width:166px; z-index:800; border:1px solid #000; -webkit-border-radius: 0 0 6px 6px;
+
+-moz-border-radius: 0 0 6px 6px;
+
+border-radius: 0 0 6px 6px;
+
+behavior: url(wp-content/themes/theme1246/PIE.htc);}
+
+.sf-menu li li ul{overflow:hidden; -webkit-border-radius:6px;
+
+-moz-border-radius:6px;
+
+border-radius:6px;
+
+behavior: url(wp-content/themes/theme1246/PIE.htc);}
+
+.sf-menu ul li {width: 166px;}
+
+.sf-menu li:hover {visibility:inherit;}
+
+.sf-menu li {float:left; position:relative;}
+
+.sf-menu a {display:block; position:relative;}
+
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {left:0; top:59px;}
+
+
+
+ul.sf-menu li:hover li ul, ul.sf-menu li.sfHover li ul {top: -999em;}
+
+ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul {left: 167px; top: -2px;}
+
+ul.sf-menu li li:hover li ul, ul.sf-menu li li.sfHover li ul { top: -999em;}
+
+ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {left: 10em; top: 0;}
+
+
+
+.sf-menu {float: right;  font-family: &#39;Ropa Sans&#39;, sans-serif; border: 1px solid #000; border-left:none; position:relative;
+
+-webkit-border-radius: 0 0 6px 6px;
+
+-moz-border-radius: 0 0 6px 6px;
+
+border-radius: 0 0 6px 6px;
+
+/*behavior: url(wp-content/themes/theme1246/PIE.htc);*/}
+
+.sf-menu a {color: #FFFFFF; font-size:17px;  padding: 19px 30px 22px 28px; text-align: center; text-decoration: none; /*letter-spacing:-1px;*/ background:url(images/bg10.png) repeat-x center top;}
+
+.sf-menu a, .sf-menu a:visited {color: #FFFFFF;}
+
+.sf-menu li {background:url(images/line2.png) no-repeat left top; padding:0 0 0 2px;}
+
+.sf-menu li li, .sf-menu li li li { height:39px; width:164px; margin: 0; background:url(images/menu_li_bg.png) repeat center top; border-top:1px solid #353131; border-bottom:1px solid #211d1d;}
+
+.sf-menu li li:hover, .sf-menu li li li:hover{ background:url(images/menu_li_bg2.png) repeat center top;}
+
+.sf-menu li li a, .sf-menu li li li a {font-size: 17px; line-height: 39px; min-width: 0; padding: 0; text-align: left; padding-left:15px;}
+
+
+
+.sf-menu a:hover, .sf-menu .current-menu-item &amp;gt; a { background:url(images/bg6.png) repeat-x center top;}
+
+.sf-menu li li.current-menu-item &amp;gt; a, .sf-menu li li li.current-menu-item &amp;gt; a{background:none;}
+
+.sf-menu li li a:hover, .sf-menu li li.sfHover a { background:none;}
+
+.sf-menu li li li a:hover, .sf-menu li li li.sfHover a {background:none;}
+
+.sf-menu a.sf-with-ul {min-width: 1px; padding-right: 2.25em;}
+
+.sf-sub-indicator {
+    position:       absolute;
+    display:        block;
+    right:          .75em;
+    top:            1.05em; /* IE6 only */
+    width:          10px;
+    height:         10px;
+    text-indent:    -999em;
+    overflow:       hidden;
+    background:     url(&#39;images/arrows.png&#39;) no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+
+a &amp;gt; .sf-sub-indicator { background-position: 0 -100px; top: 0.8em;}
+
+a:focus &amp;gt; .sf-sub-indicator, a:hover &amp;gt; .sf-sub-indicator, a:active &amp;gt; .sf-sub-indicator, li:hover &amp;gt; a &amp;gt; .sf-sub-indicator, li.sfHover &amp;gt; a &amp;gt; .sf-sub-indicator {background-position: -10px -100px;}
+
+.sf-menu ul .sf-sub-indicator {background-position: -10px 0;}
+
+.sf-menu ul a &amp;gt; .sf-sub-indicator {background-position: 0 0;}
+
+.sf-menu ul a:focus &amp;gt; .sf-sub-indicator, .sf-menu ul a:hover &amp;gt; .sf-sub-indicator, .sf-menu ul a:active &amp;gt; .sf-sub-indicator, .sf-menu ul li:hover &amp;gt; a &amp;gt; .sf-sub-indicator, .sf-menu ul li.sfHover &amp;gt; a &amp;gt; .sf-sub-indicator { background-position: -10px 0;}
+
+
+
+.sf-shadow ul { -moz-border-radius-bottomleft: 17px; -moz-border-radius-topright: 17px;  background: url(&quot;images/shadow.png&quot;) no-repeat scroll right bottom transparent; padding: 0 8px 9px 0;}
+
+.sf-shadow ul.sf-shadow-off {background: none repeat scroll 0 0 transparent;}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and the css for roundabout is&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; #myRoundabout { visibility: hidden; z-index:100; }
+    .roundabout-holder { padding-top: 0pt; padding-right: 0pt; padding-left: 0pt; width:     600px; margin: 0pt auto; height: 390px; padding-bottom: 10px ! important;     list-style: none outside none; overflow:visible; 
+
+}
+.roundabout-moveable-item { height: 300px; width: 590px; padding: 10px; overflow: hidden; cursor: pointer; position: relative; border-radius: 5px 5px 5px 5px; }
+.roundabout-moveable-item img { height: 100%; width: 100%; overflow: hidden; }
+.roundabout-moveable-item a { outline: medium none; }
+
+.roundabout-moveable-item { border: 1px solid rgb(255, 255, 255); background: none repeat scroll 0% 0% rgb(224, 224, 224); box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and the jquery code for both of them is&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+$ahsan = jQuery.noConflict();
+
+
+$ahsan(document).ready(function(){
+$ahsan(&#39;#autoplay&#39;).css(&quot;color&quot;,&quot;#95daf1&quot;);
+//ROUND TABLE
+    //var interval;
+    $ahsan(&#39;ul#myRoundabout&#39;).css(&quot;visibility&quot;,&quot;visible&quot;).roundabout({
+            minOpacity: 1,
+        minScale: 0.4,
+                maxScale:1.0,
+                responsive:true,
+       easing: &#39;swing&#39;,
+       duration: 500,
+       reflect: false,
+       startingChild: 0,
+       btnNext: &#39;#bt-next&#39;,
+       btnPrev: &#39;#bt-previous&#39;,
+       btnStartAutoplay:&#39;#autoplay&#39;,
+       btnStopAutoplay:&#39;#pause&#39;,
+             autoplay: true,
+       autoplayDuration: 3000,
+             //autoplayInitialDelay: 500,
+       autoplayPauseOnHover: true
+    //NEW --&amp;gt;
+    })
+
+    $ahsan(&quot;#bt-next,#bt-previous&quot;).click(function() {
+
+    $ahsan(&#39;#myRoundabout&#39;).roundabout(&quot;toggleAutoplay&quot;);
+    $ahsan(&#39;#autoplay&#39;).css(&quot;color&quot;,&quot;#fff&quot;);
+$ahsan(&#39;#pause&#39;).css(&quot;color&quot;,&quot;#77CFED&quot;);
+
+});
+
+
+
+    $ahsan(&quot;#autoplay&quot;).click(function() {
+    $ahsan(&#39;#pause&#39;).css(&quot;color&quot;,&quot;#fff&quot;);
+$ahsan(&#39;#autoplay&#39;).css(&quot;color&quot;,&quot;#77CFED&quot;);
+
+
+});
+
+    $ahsan(&quot;#pause&quot;).click(function() {
+
+$ahsan(&#39;#autoplay&#39;).css(&quot;color&quot;,&quot;#fff&quot;);
+$ahsan(&#39;#pause&#39;).css(&quot;color&quot;,&quot;#77CFED&quot;);
+
+
+});
+
+
+
+    });
+
+
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and for superfish it is&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+$k = jQuery.noConflict();
+ $k(document).ready(function(){
+
+            $k(&#39;ul.sf-menu&#39;).superfish({
+                animation:   {opacity:&#39;show&#39;, height:&#39;show&#39;},
+                speed:       &#39;fast&#39;,                          // faster animation speed 
+                autoArrows:  false,                           // disable generation of arrow mark-up 
+                dropShadows: false                            // disable drop shadows 
+            });
+ });
+  &amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10266538</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Magento Shipping Disable when payment is pending</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="magento"/><category scheme="http://stackoverflow.com/feeds/tags" term="e-commerce"/><category scheme="http://stackoverflow.com/feeds/tags" term="shipping"/>
+        <author>
+            <name>Mccoy Robles</name>
+            <uri>http://stackoverflow.com/users/1036149</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10266538/magento-shipping-disable-when-payment-is-pending" />
+        <published>2012-04-22T08:50:44Z</published>
+        <updated>2012-04-22T08:50:44Z</updated>
+        <summary type="html">
+            &lt;p&gt;I&#39;m trying to disable shipping in magento while the payment is pending.&lt;/p&gt;
+
+&lt;p&gt;Anyone did this? please help me. &lt;/p&gt;
+
+&lt;p&gt;Cheers&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10174448</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">A server or scripting issue</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="apache"/><category scheme="http://stackoverflow.com/feeds/tags" term="tomcat"/><category scheme="http://stackoverflow.com/feeds/tags" term="cas"/>
+        <author>
+            <name>Nabe</name>
+            <uri>http://stackoverflow.com/users/1297590</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10174448/a-server-or-scripting-issue" />
+        <published>2012-04-16T12:53:01Z</published>
+        <updated>2012-04-22T08:50:29Z</updated>
+        <summary type="html">
+            &lt;p&gt;I am recieving an error in https&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   HTTP Status 404 - /cas/login
+
+    type Status report
+
+     message /cas/login
+
+    description The requested resource (/cas/login) is not available.
+     Apache Tomcat/7.0.23
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;when i open the same link in http it gives an output (an unknown language)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    &amp;lt;html&amp;gt;
+     &amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;
+     &amp;lt;body&amp;gt;
+    &amp;lt;pre&amp;gt;???�?? &amp;lt;/pre&amp;gt;
+    &amp;lt;/body&amp;gt;
+    &amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Why is it so...? Is this an server issue or script issue? I feel it as a Server issue?? If so please share a remedy for it...&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10265941</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Crystal Reports: Showing only first record in each group</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="crystal-reports"/><category scheme="http://stackoverflow.com/feeds/tags" term="formula"/>
+        <author>
+            <name>Sensa</name>
+            <uri>http://stackoverflow.com/users/1289409</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10265941/crystal-reports-showing-only-first-record-in-each-group" />
+        <published>2012-04-22T07:09:09Z</published>
+        <updated>2012-04-22T08:50:05Z</updated>
+        <summary type="html">
+            &lt;p&gt;I searched to get the required answer but not found exactly what iam looking for - please help me.&lt;/p&gt;
+
+&lt;p&gt;Please follow the steps i made in crystal report: &lt;/p&gt;
+
+&lt;p&gt;Using crystal report command (i created a query to get the required business number)
+--&gt; which gets 5 Business numbers &lt;/p&gt;
+
+&lt;p&gt;Note: Every business is having many receipt numbers (1st installment receipt, 2nd installment receipts... like that....) - these receipt details are stored in table_receipts.&lt;/p&gt;
+
+&lt;p&gt;In table_business - i have all details about business number, customer, product details...&lt;/p&gt;
+
+&lt;p&gt;Please understand the links: &lt;/p&gt;
+
+&lt;p&gt;table_business - table_customer - table_product - table_receipts &lt;/p&gt;
+
+&lt;p&gt;Relationship between tables are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;table_business.Bno=table_receipts.Bno&lt;/li&gt;
+&lt;li&gt;table_customer.Cno=table_customer.Cno&lt;/li&gt;
+&lt;li&gt;table_product.Pno=table_product.Pno&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After creating the crystal report command; i just drag the required table in crystal report (table_business, table_customer,table_product,table_receipts)&lt;/p&gt;
+
+&lt;p&gt;Now i created a group for Business Number &quot;BNo&quot;&lt;/p&gt;
+
+&lt;p&gt;I need to display all the required details about that selected Business Number using parameter - its coming fine except receipts.&lt;/p&gt;
+
+&lt;p&gt;I mean its showing all receipts (all installment receipts). I need to display only the first receipt only (i.e: receipt number starst with letter &quot;F&quot; )&lt;/p&gt;
+
+&lt;p&gt;Hope you understand my requirement - Please help me in this regard.&lt;/p&gt;
+
+&lt;p&gt;Expecting your valuable reply.
+Regards,
+Sensa.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10255013</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to use OpenCV to remove non text areas from a business card?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c++"/><category scheme="http://stackoverflow.com/feeds/tags" term="image-processing"/><category scheme="http://stackoverflow.com/feeds/tags" term="opencv"/><category scheme="http://stackoverflow.com/feeds/tags" term="ocr"/><category scheme="http://stackoverflow.com/feeds/tags" term="segmentation"/>
+        <author>
+            <name>Patrick Jones</name>
+            <uri>http://stackoverflow.com/users/1334344</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10255013/how-to-use-opencv-to-remove-non-text-areas-from-a-business-card" />
+        <published>2012-04-21T00:07:54Z</published>
+        <updated>2012-04-22T08:50:01Z</updated>
+        <summary type="html">
+            &lt;p&gt;my target is to remove any non text area from a scanned business card image but i don&#39;t know the steps to perform that using OpenCV , i have followed this steps but don&#39;t know this is the right one or not also i don&#39;t notice any change in the image (non text areas remains) any idea will be very helpful,thanks.&lt;/p&gt;
+
+&lt;p&gt;1) convert the image to grayscale&lt;/p&gt;
+
+&lt;p&gt;2) binaries the image&lt;/p&gt;
+
+&lt;p&gt;3) invert the colors (cv::bitwise_not) in order to have a white pixels text&lt;/p&gt;
+
+&lt;p&gt;4) Erode the image(cv::erode)&lt;/p&gt;
+
+&lt;p&gt;5) detect edges using canny&lt;/p&gt;
+
+&lt;p&gt;6) detect text lines using hough transform (not yet)&lt;/p&gt;
+
+&lt;p&gt;code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cv::Mat greyMat = [self.imageView.image CVGrayscaleMat];
+cv::Mat bwMat;
+cv::threshold(greyMat, bwMat, 128, 255, CV_THRESH_BINARY);
+cv::bitwise_not(bwMat, bwMat);
+cv::Mat element = cv::getStructuringElement(cv::MORPH_RECT, cv::Size(2, 1));
+cv::erode(bwMat, bwMat, element);
+std::vector&amp;lt;cv::Point&amp;gt;points;
+cv::Mat_&amp;lt;uchar&amp;gt;::iterator it=bwMat.begin&amp;lt;uchar&amp;gt;();
+cv::Mat_&amp;lt;uchar&amp;gt;::iterator end=bwMat.end&amp;lt;uchar&amp;gt;();
+for (; it!=end; ++it) 
+if (*it) 
+points.push_back(it.pos());
+cv::RotatedRect box=cv::minAreaRect(cv::Mat(points));
+plImage* smothedImage=new IplImage(bwMat); 
+cvSmooth(smothedImage, smothedImage);
+cvCanny(smothedImage, smothedImage, 10, 100);
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10266334</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Add-on to copy a page element with styles</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="css"/><category scheme="http://stackoverflow.com/feeds/tags" term="firefox-addon"/><category scheme="http://stackoverflow.com/feeds/tags" term="greasemonkey"/><category scheme="http://stackoverflow.com/feeds/tags" term="browser-extension"/>
+        <author>
+            <name>Bardt</name>
+            <uri>http://stackoverflow.com/users/782512</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10266334/add-on-to-copy-a-page-element-with-styles" />
+        <published>2012-04-22T08:17:54Z</published>
+        <updated>2012-04-22T08:50:00Z</updated>
+        <summary type="html">
+            &lt;p&gt;I&#39;m looking for an add-on for any browser that could copy any particular web page element with all it&#39;s styles to clipboard to be paste-in and show someone.&lt;/p&gt;
+
+&lt;p&gt;The aim is to have an opportunity to quickly share a small part of my big project or to assist in writing an article about this HTML and CSS tricks or to inspect a part of someone&#39;s else work. &lt;/p&gt;
+
+&lt;p&gt;Any ideas? If no such plugin exist, I&#39;ll try to write is by myself. &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10241950</id>
+        <re:rank scheme="http://stackoverflow.com">3</re:rank>
+        <title type="text">Store file for duration of time on webpage</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="python"/><category scheme="http://stackoverflow.com/feeds/tags" term="web-development"/><category scheme="http://stackoverflow.com/feeds/tags" term="temporary-files"/>
+        <author>
+            <name>Walkerneo</name>
+            <uri>http://stackoverflow.com/users/828584</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10241950/store-file-for-duration-of-time-on-webpage" />
+        <published>2012-04-20T07:23:59Z</published>
+        <updated>2012-04-22T08:49:59Z</updated>
+        <summary type="html">
+            &lt;p&gt;I need to set up a page that will let the user upload a file, modify the file with a script, and then serve the file back to the user.&lt;/p&gt;
+
+&lt;p&gt;I have the uploading and modifying parts down, but I don&#39;t know where to put the file. They are going to be in the area of 1 or 2mb, and I have very little space on my webhosting plan, so I want to get rid of the files as soon as possible. There&#39;s no reason for the files to exist any longer than after the users are given the option to download by their browser upon being redirected. &lt;/p&gt;
+
+&lt;p&gt;Is the only way to this with a cron job that checks the creation time of the files and deletes them if they&#39;re a certain age?&lt;/p&gt;
+
+&lt;p&gt;I&#39;m working with python and PHP.&lt;/p&gt;
+
+&lt;p&gt;edit:&lt;/p&gt;
+
+&lt;p&gt;First the file is uploaded. Then the location of the file is sent back to the user. The javascript on the page redirects to the path of the file. The browser opens save file dialog, and they choose to save the file or cancel. If they cancel, I want to delete the file immediately. If they choose to save the file, I want to delete the file once their download has completed.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/1521257</id>
+        <re:rank scheme="http://stackoverflow.com">12</re:rank>
+        <title type="text">Help getting JSTL to run within tomcat and eclipse</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="eclipse"/><category scheme="http://stackoverflow.com/feeds/tags" term="tomcat"/><category scheme="http://stackoverflow.com/feeds/tags" term="glassfish"/><category scheme="http://stackoverflow.com/feeds/tags" term="jstl"/>
+        <author>
+            <name>Alex004</name>
+            <uri>http://stackoverflow.com/users/184496</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/1521257/help-getting-jstl-to-run-within-tomcat-and-eclipse" />
+        <published>2009-10-05T17:05:21Z</published>
+        <updated>2012-04-22T08:49:45Z</updated>
+        <summary type="html">
+            &lt;p&gt;I&#39;ve been trying to get this to run, but I can&#39;t.  I&#39;m using Eclipse Galileo, Tomcat 5.5.23 and have several JSTLs around. My latest try was to use the glassfish jar file &quot;jstl-impl-1.2.jar&quot;. I placed it in tomcat&#39;s shared lib, added it as external jar into my eclipe project and exported it.&lt;/p&gt;
+
+&lt;p&gt;Could anybody tell me, which jars to load in which folder and how to tell it to load in eclipse?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10266534</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Eclipse Theme Issue</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="eclipse"/><category scheme="http://stackoverflow.com/feeds/tags" term="eclipse-plugin"/>
+        <author>
+            <name>Deamon</name>
+            <uri>http://stackoverflow.com/users/1349226</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10266534/eclipse-theme-issue" />
+        <published>2012-04-22T08:49:42Z</published>
+        <updated>2012-04-22T08:49:42Z</updated>
+        <summary type="html">
+            &lt;p&gt;The Eclipse theme only seams to apply on the editor’s window and set area like &lt;strong&gt;&lt;em&gt;Project Browser , Outline, Task windows etc seems unchanged.&lt;/em&gt;&lt;/strong&gt; I have downloaded the themes form the Eclipse Market place but it has no effect. Is that the way it suppose to work or something is wrong with my Eclipse on installation.&lt;/p&gt;
+
+&lt;p&gt;I have manage to change the Java doc and Declaration Windows manually form the 
+Windows -&gt;Presences -&gt; Color and Fonts&lt;/p&gt;
+
+&lt;p&gt;Plus I have tried putting pref files in the workspace as suggested by Eric in his blog :- &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.edwards-research.com/2009/10/color-schemes-for-eclipse-cdt/&quot; rel=&quot;nofollow&quot;&gt;http://blog.edwards-research.com/2009/10/color-schemes-for-eclipse-cdt/&lt;/a&gt;
+and Theme generator
+&quot;blog.edwards-research.com/files/eclipse-gen/#&quot;&lt;/p&gt;
+
+&lt;p&gt;My present Eclipse looks like :- &lt;a href=&quot;http://www.flickr.com/photos/deamonm/7101439563/&quot; rel=&quot;nofollow&quot;&gt;http://www.flickr.com/photos/deamonm/7101439563/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I wonder how did Aptana studio manage to change in the Eclipse plugin&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10265820</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">replacing values in a nested tuple with the whole tuple</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="python"/><category scheme="http://stackoverflow.com/feeds/tags" term="tuples"/><category scheme="http://stackoverflow.com/feeds/tags" term="linguistics"/>
+        <author>
+            <name>NHDaly</name>
+            <uri>http://stackoverflow.com/users/751061</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10265820/replacing-values-in-a-nested-tuple-with-the-whole-tuple" />
+        <published>2012-04-22T06:44:18Z</published>
+        <updated>2012-04-22T08:49:22Z</updated>
+        <summary type="html">
+            &lt;p&gt;Okay,&lt;/p&gt;
+
+&lt;p&gt;I am working on a linguistic prover, and I have series of tuples that represent statements or expressions.
+Sometimes, I end up with an embedded &quot;and&quot; statement, and I am trying to &quot;bubble&quot; it up to the surface.
+I want to take a tuple that looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(&#39;pred&#39;, (&#39;and&#39;, &#39;a&#39;, &#39;b&#39;), &#39;x&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or, for a more simple example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;( (&#39;and&#39;, &#39;a&#39;, &#39;b&#39;), &#39;x&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and I want to separate out the ands into two statements such that the top one results in:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(&#39;and&#39;, (&#39;pred&#39;, &#39;a&#39;, &#39;x&#39;,), (&#39;pred&#39;, &#39;b&#39;, &#39;x&#39;) )
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and the bottom one in:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(&#39;and&#39;, (&#39;a&#39;, &#39;x&#39;), (&#39;b&#39;, &#39;x&#39;) )
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&#39;ve tried a lot of things, but it always turns out to be quite ugly code. And I am having problems if there are more nested tuples such as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(&#39;not&#39;, (&#39;p&#39;, (&#39;and&#39;, &#39;a&#39;, &#39;b&#39;), &#39;x&#39;) )
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which I want to result in &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(&#39;not&#39;, (&#39;and&#39;, (&#39;p&#39;, &#39;a&#39;, &#39;x&#39;,), (&#39;p&#39;, &#39;b&#39;, &#39;x&#39;) ) )
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So basically, the problem is trying to replace a nested tuple with the value of the entire tuple, but the nested one modified. It&#39;s very ugly. :(&lt;/p&gt;
+
+&lt;p&gt;I&#39;m not super duper python fluent so it gets very convoluted with lots of for loops that I know shouldn&#39;t be there. :( 
+Any help is much appreciated!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10266197</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Show Node with MvcSiteMapProvider if its action is marked with [Authorize(Roles = &quot;Administrator&quot;)]</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="asp.net-mvc"/><category scheme="http://stackoverflow.com/feeds/tags" term="show"/><category scheme="http://stackoverflow.com/feeds/tags" term="nodes"/><category scheme="http://stackoverflow.com/feeds/tags" term="authorize-attribute"/><category scheme="http://stackoverflow.com/feeds/tags" term="mvcsitemapprovider"/>
+        <author>
+            <name>Leniel Macaferi</name>
+            <uri>http://stackoverflow.com/users/114029</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10266197/show-node-with-mvcsitemapprovider-if-its-action-is-marked-with-authorizeroles" />
+        <published>2012-04-22T07:54:23Z</published>
+        <updated>2012-04-22T08:49:14Z</updated>
+        <summary type="html">
+            &lt;p&gt;Currently, I have a &lt;code&gt;Controller&lt;/code&gt; with an &lt;code&gt;Index()&lt;/code&gt; action method that needs authorization:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public partial class CustomerController : BaseDocumentStoreController
+{
+    [Authorize(Roles = AccountController.Administrator)]
+    public virtual ViewResult Index()
+    {
+        ...
+    }
+
+    ...
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With this in place, the respective node in the &lt;code&gt;Mvc.sitemap&lt;/code&gt; won&#39;t show in the breadcrumbs:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;mvcSiteMapNode     title=&quot;Customer&quot;         controller=&quot;Customer&quot; action=&quot;Index&quot;
+                    resourceKey=&quot;Customers&quot;  clickable=&quot;true&quot; &amp;gt;
+
+    &amp;lt;mvcSiteMapNode title=&quot;Customer Add&quot;     controller=&quot;Customer&quot; action=&quot;Add&quot;
+                    resourceKey=&quot;Add&quot;  /&amp;gt;
+    &amp;lt;mvcSiteMapNode title=&quot;Customer Create&quot;  controller=&quot;Customer&quot; action=&quot;Create&quot;
+                    resourceKey=&quot;Add&quot; /&amp;gt;
+    &amp;lt;mvcSiteMapNode title=&quot;Customer Edit&quot;    controller=&quot;Customer&quot; action=&quot;Edit&quot;
+                    resourceKey=&quot;Edit&quot; /&amp;gt;
+    &amp;lt;mvcSiteMapNode title=&quot;Customer Update&quot;  controller=&quot;Customer&quot; action=&quot;Update&quot;
+                    resourceKey=&quot;Edit&quot; /&amp;gt;
+    &amp;lt;mvcSiteMapNode title=&quot;Customer Delete&quot;  controller=&quot;Customer&quot; action=&quot;Delete&quot;
+                    resourceKey=&quot;Delete&quot; /&amp;gt;
+    &amp;lt;mvcSiteMapNode title=&quot;Customer Details&quot; controller=&quot;Customer&quot; action=&quot;Details&quot;
+                    resourceKey=&quot;Details&quot; /&amp;gt;
+    &amp;lt;mvcSiteMapNode title=&quot;Customer Search&quot;  controller=&quot;Customer&quot; action=&quot;Search&quot;
+                    resourceKey=&quot;Search&quot; /&amp;gt;
+
+&amp;lt;/mvcSiteMapNode&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What I want is to show this node anyway...&lt;/p&gt;
+
+&lt;p&gt;Let&#39;s say the user is not authenticated. So I want the breadcrumbs to show this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Home &amp;gt; Customers &amp;gt; Add
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Currently it only shows:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Add
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If the user clicks the &lt;strong&gt;Customers&lt;/strong&gt; node he&#39;ll be redirected to the login view... OK, that&#39;s fine!&lt;/p&gt;
+
+&lt;p&gt;I tried to implement my own &lt;code&gt;SiteMapVisibilityProvider&lt;/code&gt; following &lt;a href=&quot;https://github.com/maartenba/MvcSiteMapProvider/wiki/Advanced-Node-Visibility&quot; rel=&quot;nofollow&quot;&gt;these steps&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public class SiteMapVisibilityProvider : ISiteMapNodeVisibilityProvider
+{
+   ...
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;While debugging I could only see the nodes bellow the Index node, that is, in my current case, only the Add node showed up. The node that represents the Index action method didn&#39;t show up in the debugging session.&lt;/p&gt;
+
+&lt;p&gt;Is there any way of achieving what I want?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10266533</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">how to test datetime select input on cucumber</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ruby-on-rails"/><category scheme="http://stackoverflow.com/feeds/tags" term="cucumber"/>
+        <author>
+            <name>user1349301</name>
+            <uri>http://stackoverflow.com/users/1349301</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10266533/how-to-test-datetime-select-input-on-cucumber" />
+        <published>2012-04-22T08:49:13Z</published>
+        <updated>2012-04-22T08:49:13Z</updated>
+        <summary type="html">
+            &lt;p&gt;I need to write a cucumber test to test datetime select behavior.&lt;/p&gt;
+
+&lt;p&gt;here is my sentence:
+When I select &quot;2012-4-30 15:00&quot; as the &quot;start_time&quot;&lt;/p&gt;
+
+&lt;p&gt;here is my html view:
+= form_tag time_off_requests_path do&lt;/p&gt;
+
+&lt;p&gt;= label :time_off_request, :start_time, &#39;Start Time&#39;
+  = datetime_select :time_off_request, :start_time , :start_year =&gt; Time.current.year, :use_short_month =&gt; true&lt;/p&gt;
+
+&lt;p&gt;= submit_tag &#39;Save Changes&#39;&lt;/p&gt;
+
+&lt;p&gt;I tried something like
+When /^I select &quot;([^&quot;]&lt;em&gt;)&quot; as the &quot;([^&quot;]&lt;/em&gt;)&quot;$/ do |date_time, label|
+  select(date_time, from =&gt; label)
+end
+but it doesn&#39;t work. get can not find id, name for &quot;select box&quot;
+really need help!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10266532</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">append div to td in table dynamically</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/>
+        <author>
+            <name>prerna</name>
+            <uri>http://stackoverflow.com/users/797368</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10266532/append-div-to-td-in-table-dynamically" />
+        <published>2012-04-22T08:49:03Z</published>
+        <updated>2012-04-22T08:49:03Z</updated>
+        <summary type="html">
+            &lt;pre&gt;&lt;code&gt; var $table = $(&#39;&amp;lt;table/&amp;gt;&#39;).addClass(&#39;commentbox&#39;);
+
+$table.append(&#39;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&#39; + &#39;Comment Id:&#39;+ &#39;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&#39;);
+
+var $wrap = $(&#39;&amp;lt;div/&amp;gt;&#39;).attr(&#39;id&#39;, &#39;container&#39;);
+
+var $in = $(&#39;&amp;lt;input type=&quot;button&quot; value=&quot;Reply&quot;/&amp;gt;&#39;).attr(&#39;id&#39;, &#39;reply&#39;);
+$wrap.append($in);
+ $table.append(
+                 $(&#39;&amp;lt;tr&amp;gt;&#39;)
+                         .append($(&#39;&amp;lt;td&amp;gt;&#39;),
+                         $(&#39;&amp;lt;td&amp;gt;&#39;))
+                       );
+      $table.append($wrap);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I want the div id container to be added inside td
+but I am getting html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; &amp;lt;table&amp;gt;
+   &amp;lt;tbody&amp;gt;
+    &amp;lt;tr&amp;gt;
+      &amp;lt;td&amp;gt;Comment&amp;lt;/td&amp;gt;
+     &amp;lt;/tr&amp;gt;
+     &amp;lt;tr&amp;gt;
+        &amp;lt;td&amp;gt;
+        &amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;
+     &amp;lt;/tr&amp;gt;
+  &amp;lt;tbody&amp;gt;
+     &amp;lt;div id=&quot;container&quot;&amp;gt;
+      &amp;lt;input type=&quot;button&quot; value=&quot;Reply&quot; id=&quot;reply&quot;&amp;gt;
+     &amp;lt;/div&amp;gt;
+&amp;lt;/table&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10266088</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Looking for a GPS device that has high sampling rate</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="gps"/>
+        <author>
+            <name>kakush</name>
+            <uri>http://stackoverflow.com/users/1087995</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10266088/looking-for-a-gps-device-that-has-high-sampling-rate" />
+        <published>2012-04-22T07:34:29Z</published>
+        <updated>2012-04-22T08:48:57Z</updated>
+        <summary type="html">
+            &lt;p&gt;I tried to look for  some kind of a document that compares GPS deviced , also according to their sampling rate.&lt;/p&gt;
+
+&lt;p&gt;I also didn&#39;t find information about the sampling rate in any device.&lt;/p&gt;
+
+&lt;p&gt;Maybe I don&#39;t use the term &quot;sampling rate&quot; correctly.&lt;/p&gt;
+
+&lt;p&gt;Can anyone help please?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10266531</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Distriubuted programming in Python</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="python"/><category scheme="http://stackoverflow.com/feeds/tags" term="distributed"/>
+        <author>
+            <name>Gerenuk</name>
+            <uri>http://stackoverflow.com/users/815443</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10266531/distriubuted-programming-in-python" />
+        <published>2012-04-22T08:48:43Z</published>
+        <updated>2012-04-22T08:48:43Z</updated>
+        <summary type="html">
+            &lt;p&gt;I plan do program a simple data flow framework, which basically consists of lazy method calls of objects. If I ever consider distributed programming, what is the easiest way to enable that in Python? Any transparent solution without me doing network programming?&lt;/p&gt;
+
+&lt;p&gt;Or for a start, how can I make use of multi-core processors in Python?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10264796</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">weird issue when subtracting two images</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="image-processing"/><category scheme="http://stackoverflow.com/feeds/tags" term="opencv"/>
+        <author>
+            <name>Patrick Jones</name>
+            <uri>http://stackoverflow.com/users/1334344</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10264796/weird-issue-when-subtracting-two-images" />
+        <published>2012-04-22T02:48:14Z</published>
+        <updated>2012-04-22T08:48:32Z</updated>
+        <summary type="html">
+            &lt;p&gt;these question is a follow to &lt;a href=&quot;http://stackoverflow.com/questions/10255013/how-to-use-opencv-to-remove-non-text-areas-from-a-business-card&quot;&gt;this one&lt;/a&gt;, i have an image which i want to remove logo from it, i have eroded the image until all the small text are gone away and only the logo is the remaining , now i have two images , the original image and the one with only the logo , now when i attempt to subtract the two images in order to form a third one contains only the text,a weird thing happens, the logo doesn&#39;t removed but it&#39;s outlined as demonstrated below
+--&gt; why the logo remains, i expect it to be removed?&lt;/p&gt;
+
+&lt;p&gt;original image:
+&lt;img src=&quot;http://i.stack.imgur.com/z945Y.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;eroded image:
+&lt;img src=&quot;http://i.stack.imgur.com/fZ8TJ.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Final Image(original-eroded):
+&lt;img src=&quot;http://i.stack.imgur.com/vBWeJ.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cv::Mat final;
+cv::Mat greyMat = [self.imageView.image CVGrayscaleMat];
+cv::Mat bwMat,erodedMat;
+cv::threshold(greyMat, bwMat, 128, 255, CV_THRESH_BINARY);
+cv::bitwise_not(bwMat, bwMat);
+cv::Mat element = cv::getStructuringElement(cv::MORPH_RECT, cv::Size(20, 12));
+cv::erode(bwMat, erodedMat, element);
+std::vector&amp;lt;cv::Point&amp;gt;points;
+cv::Mat_&amp;lt;uchar&amp;gt;::iterator it=bwMat.begin&amp;lt;uchar&amp;gt;();
+cv::Mat_&amp;lt;uchar&amp;gt;::iterator end=bwMat.end&amp;lt;uchar&amp;gt;();
+for (; it!=end; ++it) 
+    if (*it) 
+        points.push_back(it.pos());
+final=bwMat-erodedMat;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10266414</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Objective-C Array of Objects</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="objective-c"/><category scheme="http://stackoverflow.com/feeds/tags" term="arrays"/><category scheme="http://stackoverflow.com/feeds/tags" term="exc-bad-access"/>
+        <author>
+            <name>itsame69</name>
+            <uri>http://stackoverflow.com/users/511114</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10266414/objective-c-array-of-objects" />
+        <published>2012-04-22T08:30:52Z</published>
+        <updated>2012-04-22T08:48:23Z</updated>
+        <summary type="html">
+            &lt;p&gt;Although experienced with OOP, I am an absolute newbie with Objective-C. I have the following code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// header files have been imported before this statement...
+CCSprite *treeObstacle;
+NSMutableArray *treeObstacles;
+
+@implementation HelloWorldLayer {
+}
+
+-(id) init
+{
+    // create and initialize our seeker sprite, and add it to this layer
+    treeObstacles = [NSMutableArray arrayWithObjects: nil];        
+    for (int i=0; i&amp;lt;5; i++) {
+        treeObstacle = [CCSprite spriteWithFile: @&quot;Icon.png&quot;];
+        treeObstacle.position = ccp( 450-i*20, 100+i*20 );
+        [self addChild:treeObstacle];
+        [treeObstacles addObject: treeObstacle];
+    }
+    NSLog (@&quot;Number of elements in array = %i&quot;, [treeObstacles count]);
+    return self;
+}
+
+- (void) mymethod:(int)i {
+    NSLog (@&quot;Number of elements in array = %i&quot;, [treeObstacles count]);
+}
+
+@end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The first NSLog() statement returns &quot;Number of elements in array = 5&quot;. The problem is that (although treeObstacles is a file-scope variable) when calling the method &quot;mymethod&quot;, I&#39;ll get an EXC_BAD_ACCESS exception. &lt;/p&gt;
+
+&lt;p&gt;Can anybody please help me?&lt;/p&gt;
+
+&lt;p&gt;Thanks a lot
+    Christian&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10266529</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Keep an offline message in the browser . Gmail , YouTube etc</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="web-development"/><category scheme="http://stackoverflow.com/feeds/tags" term="browser"/>
+        <author>
+            <name>Aash Maharoon</name>
+            <uri>http://stackoverflow.com/users/900081</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10266529/keep-an-offline-message-in-the-browser-gmail-youtube-etc" />
+        <published>2012-04-22T08:48:15Z</published>
+        <updated>2012-04-22T08:48:15Z</updated>
+        <summary type="html">
+            &lt;p&gt;When the internet connection is unavailble, and we try to open the &#39;gmail&#39; page when it had opened earlier, a message can be seen &lt;code&gt;Gmail
+The app is currently unreachable.&lt;/code&gt; This same way, Youtube too.&lt;br&gt;
+Also in &#39;gmail&#39; offline message, I saw this attribute in the body tag  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;jstcache=&quot;0&quot;  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How can we implement such a page when the page/browser is offline ? &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10263769</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Linux shell script: grep not working inside for-loop</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="shell"/><category scheme="http://stackoverflow.com/feeds/tags" term="script"/><category scheme="http://stackoverflow.com/feeds/tags" term="for-loop"/><category scheme="http://stackoverflow.com/feeds/tags" term="grep"/>
+        <author>
+            <name>Lars</name>
+            <uri>http://stackoverflow.com/users/1118450</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10263769/linux-shell-script-grep-not-working-inside-for-loop" />
+        <published>2012-04-21T22:57:39Z</published>
+        <updated>2012-04-22T08:48:01Z</updated>
+        <summary type="html">
+            &lt;p&gt;When I use grep in TEST (line 18) it works perfectly. When I do the exact same command, but inside the for-loop (line 40), it does not work. Why? I&#39;ve bent my brain on this problem too long now.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
+clear           
+
+sourcelist=`ls *.c`
+headerlist=`ls *.h`
+FILE=&quot;headers.txt&quot;
+
+TEST=&quot;receive_elevator_data&quot; #this is one typical entry in headers.tex
+echo &quot;TEST&quot;
+grep $TEST *.c -n
+
+MODE=&quot;h&quot;
+
+if [ &quot;$MODE&quot; = &quot;h&quot; ]
+then
+echo &quot;Searching..&quot;
+#for entry in $(cut -f 1 $FILE)
+for entry in `cat $FILE`
+    do
+    echo &quot;Looking at entry in $FILE: &quot;
+    echo $entry
+    echo &quot;Press any button to search, &amp;lt;s&amp;gt; for skip, &amp;lt;e&amp;gt; to exit&quot;
+    read -e INPUT2
+    if [ &quot;$INPUT2&quot; = &quot;s&quot; ]
+    then
+        continue
+    fi
+    if [ &quot;$INPUT2&quot; = &quot;n&quot; ]
+    then
+        exit 1 #exit shell script
+    else
+        grep -n &quot;${entry}&quot; ${sourcelist}
+    fi
+done
+fi
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Just to clarify: every line in headers.txt has strings like &quot;test&quot;, i.e no space in the lines. What headers.txt really contains is a list of function names extracted from all headerfiles in a C project :) There was no returned error in my previous code, it was just the grep command in the loop that wouldn&#39;t run. What I want to do, is to search through all C files for each function in headers.txt, and prompt me before each search&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10266232</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">how to stop onbeforeunload event?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/>
+        <author>
+            <name>Raja Gopal</name>
+            <uri>http://stackoverflow.com/users/1162260</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10266232/how-to-stop-onbeforeunload-event" />
+        <published>2012-04-22T07:59:57Z</published>
+        <updated>2012-04-22T08:47:38Z</updated>
+        <summary type="html">
+            &lt;p&gt;I have tried to stop the default close event with,
+&lt;code&gt;event.stopPropogation()&lt;/code&gt; and also &lt;code&gt;event.preventDefault()&lt;/code&gt; But, it doesn&#39;t help me to stop the process.&lt;/p&gt;
+
+&lt;p&gt;Could any of you know how to stop this default close event?&lt;/p&gt;
+
+&lt;p&gt;Is it possible to listen for browser click event?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10266346</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">Unexpected memory usage of List&lt;T&gt;</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#-4.0"/>
+        <author>
+            <name>Roy T.</name>
+            <uri>http://stackoverflow.com/users/445112</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10266346/unexpected-memory-usage-of-listt" />
+        <published>2012-04-22T08:20:33Z</published>
+        <updated>2012-04-22T08:47:35Z</updated>
+        <summary type="html">
+            &lt;p&gt;I always thought that the default constructor for List would initialize a list with a capacity of 4 and that the capacity would be doubled when adding the 5th element, etc...&lt;/p&gt;
+
+&lt;p&gt;In my application I make a lot of lists (tree like structure where each node can have many children), some of these nodes won&#39;t have any children and since my application was fast but was also using a bit much memory I decided to use the constructor where I can specify the capacity and have set this at 1.&lt;/p&gt;
+
+&lt;p&gt;The strange thing now is that the memory usage when I start with a capacity of 1 is about 15% higher then when I use the default constructor. It can&#39;t be because of a better fit with 4 since the doubling would be 1,2,4. So why this extra increase in memory usage? As an extra test I&#39;ve tried to start with a capacity of 4. This time again the memory usage was 15% higher then when using no specified capacity.&lt;/p&gt;
+
+&lt;p&gt;Now this really isn&#39;t a problem, but it bothers me that a pretty simple data structure that I&#39;ve used for years has some extra logic that I didn&#39;t know about yet. Does anyone have an idea of the inner workings of List in this aspect?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10266196</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Regex to replace integer seperated by space</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="regex"/>
+        <author>
+            <name>Event_Horizon</name>
+            <uri>http://stackoverflow.com/users/1339492</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10266196/regex-to-replace-integer-seperated-by-space" />
+        <published>2012-04-22T07:54:04Z</published>
+        <updated>2012-04-22T08:47:34Z</updated>
+        <summary type="html">
+            &lt;p&gt;I&#39;m creating a MTG card generator with JS, and I was wondering how I would go about replacing my Integers in the card cost using regex? (more for learning than publishing)&lt;/p&gt;
+
+&lt;p&gt;card_cost is just a input text value from a user, I want to be able to separate the integers with spaces IE: user enters: &quot;10 1 2&quot; Ints should get replaced but spaces should be kept.&lt;/p&gt;
+
+&lt;p&gt;would start like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if(card_cost)
+{
+card_cost=card_cost.replace(/INTEGER/g,&quot;&amp;lt;span class=&#39;card_costnum&#39; src=&#39;numsymbol.png&#39; &amp;gt;&amp;lt;/span&amp;gt;&quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The attempt here is to replace the integers with themselves held inside a span to display a background image per number.&lt;/p&gt;
+
+&lt;p&gt;Now that I have had time to think about this I&#39;m assuming I&#39;ll need to get an array of the integers so I can pass them back through within a span, replacing wont be enough to catch more than one integer correctly I assume.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10266452</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Select count from each table from a list stored on a table</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="count"/>
+        <author>
+            <name>elcodedocle</name>
+            <uri>http://stackoverflow.com/users/1060686</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10266452/select-count-from-each-table-from-a-list-stored-on-a-table" />
+        <published>2012-04-22T08:36:22Z</published>
+        <updated>2012-04-22T08:47:28Z</updated>
+        <summary type="html">
+            &lt;p&gt;I have a table &lt;code&gt;tbls&lt;/code&gt; with a field &lt;code&gt;name&lt;/code&gt; containing names of tables.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m trying to form a statement to get the number of rows of each of this tables.&lt;/p&gt;
+
+&lt;p&gt;Should I use a stored procedure or is there a simpler way to do it?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10266404</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">How much -XX:MaxPermSize size i can mention for 4GB and 8GB Ram and calculation for this?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="web-development"/><category scheme="http://stackoverflow.com/feeds/tags" term="permgen"/><category scheme="http://stackoverflow.com/feeds/tags" term="java-memory-model"/>
+        <author>
+            <name>M Sach</name>
+            <uri>http://stackoverflow.com/users/802050</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10266404/how-much-xxmaxpermsize-size-i-can-mention-for-4gb-and-8gb-ram-and-calculation" />
+        <published>2012-04-22T08:29:42Z</published>
+        <updated>2012-04-22T08:47:12Z</updated>
+        <summary type="html">
+            &lt;p&gt;How much  -XX:MaxPermSize size i can mention for 4GB  and 8GB Ram. Here are the other detalis of my system&lt;/p&gt;
+
+&lt;p&gt;OS:-window XP(32 bit)
+RAM:-4 GB
+java_opt- -Xms1536m -Xmx1536m //(mentioned as environment variable):
+tomcat version:-6.0.26&lt;/p&gt;
+
+&lt;p&gt;I have another system with 8GB ram with other details exactly same . Yes os is 64 bit Window 7.&lt;/p&gt;
+
+&lt;p&gt;Along with this  also let me know what can be the max value  for  -Xmx parameter for both the systems?&lt;/p&gt;
+
+&lt;p&gt;It would be great if some body can tell me the calculation to arrive at the figure so that we dont have to cram this figure but we can logically calculate based on RAM ssytem is having?&lt;/p&gt;
+
+&lt;p&gt;I have really seen people getting permgen error or heap error but every body keeps on playing with this paramters until they come to figure that resolve the issue.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10266370</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to mange big data on adroid app?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="database"/>
+        <author>
+            <name>Giffary</name>
+            <uri>http://stackoverflow.com/users/286090</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10266370/how-to-mange-big-data-on-adroid-app" />
+        <published>2012-04-22T08:24:17Z</published>
+        <updated>2012-04-22T08:47:07Z</updated>
+        <summary type="html">
+            &lt;p&gt;I have big database that I use on my website and I would like to use it on android application without internet connection.&lt;/p&gt;
+
+&lt;p&gt;My database can export to .db file. How should I do to use this file for my android app.&lt;/p&gt;
+
+&lt;p&gt;Regards&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/4995428</id>
+        <re:rank scheme="http://stackoverflow.com">7</re:rank>
+        <title type="text">Storing Lat Lng values in MySQL using Spatial Point Type</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="geospatial"/>
+        <author>
+            <name>bateman_ap</name>
+            <uri>http://stackoverflow.com/users/260023</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/4995428/storing-lat-lng-values-in-mysql-using-spatial-point-type" />
+        <published>2011-02-14T17:47:05Z</published>
+        <updated>2012-04-22T08:47:05Z</updated>
+        <summary type="html">
+            &lt;p&gt;Tech used: MySQL 5.1 and PHP 5.3&lt;/p&gt;
+
+&lt;p&gt;I am just designing a new database for a site I am writing. I am looking at the best way of now storing Lat and Lng values. &lt;/p&gt;
+
+&lt;p&gt;In the past I have been using DECIMAL and using a PHP/MySQL select in the form:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SQRT(POW(69.1 * (fld_lat - ( $lat )), 2) + POW(69.1 * (($lon) - fld_lon) * COS(fld_lat / 57.3 ), 2 )) AS distance
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;to find nearest matching places.&lt;/p&gt;
+
+&lt;p&gt;Starting to read up more on new technologies I am wondering if I should use Spatial Extensions. &lt;a href=&quot;http://dev.mysql.com/doc/refman/5.1/en/geometry-property-functions.html&quot;&gt;http://dev.mysql.com/doc/refman/5.1/en/geometry-property-functions.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Information is quite thin on the ground though and had a question on how to store the data. Instead of using DECIMAL, would I now use POINT as a Datatype?&lt;/p&gt;
+
+&lt;p&gt;Also, once stored as a POINT is it easy just to get the Lat Lng values from it in case I want to plot it on a map or should I additionally store the lat lngs as DECIMALS again as well?&lt;/p&gt;
+
+&lt;p&gt;I know I should prob use PostGIS as most posts on here say I just don&#39;t want to learn a new DB though!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Follow up&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I have been playing with the new POINT type. I have been able to add Lat Lng values using the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;INSERT INTO spatialTable (placeName, geoPoint) VALUES( &quot;London School of Economics&quot;, GeomFromText( &#39;POINT(51.514 -0.1167)&#39; ));
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I can then get the Lat and Lng values back from the Db using:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SELECT X(geoPoint), Y(geoPoint) FROM spatialTable;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This all looks good, however the calculation for distance is the bit I need to solve. Apparently MySQL has a place-holder for a distance function but won&#39;t be released for a while. In a few posts I have found I need to do something like the below, however I think my code is slightly wrong:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SELECT
+ placeName,
+ ROUND(GLength(
+  LineStringFromWKB(
+   LineString(
+    geoPoint, 
+    GeomFromText(&#39;POINT(52.5177, -0.0968)&#39;)
+  )
+  )
+))
+AS distance
+FROM spatialTable
+ORDER BY distance ASC;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In this example geoPoint is a POINT entered into the DB using the INSERT above.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;GeomFromText(&#39;POINT(52.5177, -0.0968)&#39;&lt;/code&gt; is a Lat Lng value I want to calculate a distance from.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;More Follow-up&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Rather stupidly I had just put in the ROUND part of the SQL without really thinking. Taking this out gives me:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SELECT
+placeName,
+(GLength(
+LineStringFromWKB(
+  LineString(
+    geoPoint, 
+    GeomFromText(&#39;POINT(51.5177 -0.0968)&#39;)
+  )
+ )
+))
+AS distance
+FROM spatialTable
+ORDER BY distance ASC
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which seems to give me the correct distances I need.&lt;/p&gt;
+
+&lt;p&gt;I suppose the only thing currently that needs answering is any thoughts on whether I am just making life difficult for myself by using Spatial now or future-proofing myself...&lt;/p&gt;
+
+        </summary>
+    </entry>
+</feed>

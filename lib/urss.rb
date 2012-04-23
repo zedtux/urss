@@ -3,7 +3,12 @@ require "open-uri"
 require "nokogiri"
 
 require "urss/rss"
-require "urss/entry"
+require "urss/feed"
+require "urss/feed/entry"
+require "urss/feed/atom"
+require "urss/feed/atom_entry"
+require "urss/feed/rss"
+require "urss/feed/rss_entry"
 require "urss/media"
 
 module Urss

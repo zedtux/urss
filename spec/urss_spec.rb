@@ -55,8 +55,8 @@ describe Urss do
     context "RSS 0.9" do
       context "when parsing the rss09.xml example file at http://slashdot.org/" do
         before { @parsed_rss = subject.at("http://slashdot.org/") }
-        it "should return an instance of Urss::Rss" do
-          @parsed_rss.should be_an_instance_of(Urss::Rss)
+        it "should return an instance of Urss::Feed::Rss" do
+          @parsed_rss.should be_an_instance_of(Urss::Feed::Rss)
         end
         describe "Urss::Rss" do
           describe "title" do
@@ -127,8 +127,8 @@ describe Urss do
       context "without media" do
         context "when parsing the rss20.xml example file at http://tech.rufy.com" do
           before { @parsed_rss = subject.at("http://tech.rufy.com") }
-          it "should return an instance of Urss::Rss" do
-            @parsed_rss.should be_an_instance_of(Urss::Rss)
+          it "should return an instance of Urss::Feed::Rss" do
+            @parsed_rss.should be_an_instance_of(Urss::Feed::Rss)
           end
           describe "Urss::Rss" do
             describe "title" do
@@ -274,8 +274,8 @@ The difference between -- and : is huge for me [...]"""
       context "with media" do
         context "when parsing the media_rss.xml example file at http://www.flickr.com/photos/herval/" do
           before { @parsed_rss = subject.at("http://www.flickr.com/photos/herval/") }
-          it "should return an instance of Urss::Rss" do
-            @parsed_rss.should be_an_instance_of(Urss::Rss)
+          it "should return an instance of Urss::Feed::Rss" do
+            @parsed_rss.should be_an_instance_of(Urss::Feed::Rss)
           end
           describe "Urss::Rss" do
             describe "title" do
@@ -327,8 +327,8 @@ The difference between -- and : is huge for me [...]"""
         end
         context "when parsing the wax.rss example file at http://waxluxembourg.com/feed/" do
           before { @parsed_rss = subject.at("http://waxluxembourg.com/feed/") }
-          it "should return an instance of Urss::Rss" do
-            @parsed_rss.should be_an_instance_of(Urss::Rss)
+          it "should return an instance of Urss::Feed::Rss" do
+            @parsed_rss.should be_an_instance_of(Urss::Feed::Rss)
           end
           describe "Urss::Rss" do
             describe "title" do
@@ -409,6 +409,77 @@ The difference between -- and : is huge for me [...]"""
                       end
                     end
                   end
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+
+    context "Atom" do
+      context "when parsing the atom.xml example file at http://example.org/feed.atom" do
+        before { @parsed_rss = subject.at("http://example.org/feed.atom") }
+        it "should return an instance of Urss::Feed::Atom" do
+          @parsed_rss.should be_an_instance_of(Urss::Feed::Atom)
+        end
+        describe "Urss::Rss" do
+          describe "title" do
+            it "should return \"dive into mark\"" do
+              @parsed_rss.title.should == "dive into mark"
+            end
+          end
+          describe "url" do
+            it "should return \"http://example.org/feed.atom\"" do
+              @parsed_rss.url.should == "http://example.org/feed.atom"
+            end
+          end
+          describe "description" do
+            it "should return \"A emlot/em of effort\n    went into making this effortless\"" do
+              @parsed_rss.description.should == "A emlot/em of effort\n    went into making this effortless"
+            end
+          end
+          describe "updated_at" do
+            it "should return \"2005-07-31T12:29:29Z\"" do
+              @parsed_rss.updated_at.should == "2005-07-31T12:29:29Z"
+            end
+          end
+          describe"entries" do
+            describe "size" do
+              it "should be 1" do
+                @parsed_rss.entries.size.should be 1
+              end
+            end
+            describe "first" do
+              before { @first_parsed_rss = @parsed_rss.entries.first }
+              describe "title" do
+                it "should return \"Atom draft-07 snapshot\"" do
+                  @first_parsed_rss.title.should == "Atom draft-07 snapshot"
+                end
+              end
+              describe "url" do
+                it "should return \"http://example.org/2005/04/02/atom\"" do
+                  @first_parsed_rss.url.should == "http://example.org/2005/04/02/atom"
+                end
+              end
+              describe "comments_url" do
+                it "should be empty" do
+                  @first_parsed_rss.comments_url.should be_nil
+                end
+              end
+              describe "created_at" do
+                it "should return \"2003-12-13T08:29:29-04:00\"" do
+                  @first_parsed_rss.created_at.should == "2003-12-13T08:29:29-04:00"
+                end
+              end
+              describe "author" do
+                it "should return \"Mark Pilgrim\"" do
+                  @first_parsed_rss.author.should == "Mark Pilgrim"
+                end
+              end
+              describe "categories" do
+                it "should be empty" do
+                  @first_parsed_rss.categories.should be_empty
                 end
               end
             end
