@@ -82,6 +82,12 @@ rss.entries.first.medias.first.content_url
 #=> http://farm9.staticflickr.com/8159/6960539484_56665aba46_b.jpg
 ````
 
+## Reporting not working Feed
+
+If you encounter a Feed (RSS or Atom) where an attribute is not well parsed: Open an issue with a dump of the feed.
+
+You can use `curl` to do this and post the output (Use [gists](https://gist.github.com/) if it is very long).
+
 ## Contributing
 
 1. Fork it
