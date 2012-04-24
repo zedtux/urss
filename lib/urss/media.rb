@@ -6,10 +6,10 @@ class Urss::Media
   # ~~~~ Class methods ~~~~
 
   # ~~~~ Instance methods ~~~~
-  def initialize
-    self.content_url = nil
-    self.title = nil
-    self.thumbnail_url = nil
+  def initialize(options={})
+    self.content_url = options[:content_url] || nil
+    self.title = options[:title] || nil
+    self.thumbnail_url = options[:thumbnail_url] || nil
   end
 
   def update(nokogiri_instance)

@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:georss="http://www.georss.org/georss" xmlns:woe="http://where.yahooapis.com/v1/schema.rng" xmlns:flickr="urn:flickr:user" xmlns:media="http://search.yahoo.com/mrss/">
+  <title>Uploads from CoolbieRe, with geodata</title>
+  <link rel="self" href="http://api.flickr.com/services/feeds/geo/?id=90313708@N00&amp;lang=en-us"/>
+  <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/"/>
+  <id>tag:flickr.com,2005:/photos/public/4301453/geo/</id>
+  <icon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</icon>
+  <subtitle/>
+  <updated>2012-03-06T01:43:23Z</updated>
+  <generator uri="http://www.flickr.com/">Flickr</generator>
+  <entry>
+    <title>4146s @ Matterhorn</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6957617023/"/>
+    <id>tag:flickr.com,2005:/photo/6957617023</id>
+    <published>2012-03-06T01:43:23Z</published>
+    <updated>2012-03-06T01:43:23Z</updated>
+    <flickr:date_taken>2012-02-27T05:53:04-08:00</flickr:date_taken>
+    <dc:date.Taken>2012-02-27T05:53:04-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6957617023/" title="4146s @ Matterhorn"&gt;&lt;img src="http://farm8.staticflickr.com/7040/6957617023_b873b4d2cc_m.jpg" width="240" height="150" alt="4146s @ Matterhorn" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7040/6957617023_b873b4d2cc_b.jpg"/>
+    <category term="" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>46.028733 7.747592</georss:point>
+    <geo:lat>46.028733</geo:lat>
+    <geo:long>7.747592</geo:long>
+    <woe:woeid>784766</woe:woeid>
+  </entry>
+  <entry>
+    <title>OSLO on ice</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6951379535/"/>
+    <id>tag:flickr.com,2005:/photo/6951379535</id>
+    <published>2012-03-04T07:52:23Z</published>
+    <updated>2012-03-04T07:52:23Z</updated>
+    <flickr:date_taken>2012-02-24T14:12:23-08:00</flickr:date_taken>
+    <dc:date.Taken>2012-02-24T14:12:23-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6951379535/" title="OSLO on ice"&gt;&lt;img src="http://farm8.staticflickr.com/7058/6951379535_d345e4bd58_m.jpg" width="240" height="157" alt="OSLO on ice" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7058/6951379535_d345e4bd58_b.jpg"/>
+    <category term="architecture" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="bay" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="cityscape" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="2012" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="bulding" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>59.906747 10.747225</georss:point>
+    <geo:lat>59.906747</geo:lat>
+    <geo:long>10.747225</geo:long>
+    <woe:woeid>862592</woe:woeid>
+  </entry>
+  <entry>
+    <title>Barn</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6950920311/"/>
+    <id>tag:flickr.com,2005:/photo/6950920311</id>
+    <published>2012-03-04T03:39:28Z</published>
+    <updated>2012-03-04T03:39:28Z</updated>
+    <flickr:date_taken>2012-02-20T20:58:36-08:00</flickr:date_taken>
+    <dc:date.Taken>2012-02-20T20:58:36-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6950920311/" title="Barn"&gt;&lt;img src="http://farm8.staticflickr.com/7182/6950920311_2550d0aa3c_m.jpg" width="240" height="160" alt="Barn" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7182/6950920311_2550d0aa3c_b.jpg"/>
+    <category term="" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>69.694678 18.621482</georss:point>
+    <geo:lat>69.694678</geo:lat>
+    <geo:long>18.621482</geo:long>
+    <woe:woeid>858202</woe:woeid>
+  </entry>
+  <entry>
+    <title>Jungfraujoch / Top of Europe.</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6949188647/"/>
+    <id>tag:flickr.com,2005:/photo/6949188647</id>
+    <published>2012-03-03T15:30:44Z</published>
+    <updated>2012-03-03T15:30:44Z</updated>
+    <flickr:date_taken>2012-02-28T15:55:12-08:00</flickr:date_taken>
+    <dc:date.Taken>2012-02-28T15:55:12-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6949188647/" title="Jungfraujoch / Top of Europe."&gt;&lt;img src="http://farm8.staticflickr.com/7058/6949188647_fbdbd9040c_m.jpg" width="240" height="160" alt="Jungfraujoch / Top of Europe." /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7058/6949188647_fbdbd9040c_b.jpg"/>
+    <category term="nature" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="landscape" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="switzerland" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="landscapephotography" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>46.547232 7.982769</georss:point>
+    <geo:lat>46.547232</geo:lat>
+    <geo:long>7.982769</geo:long>
+    <woe:woeid>7153322</woe:woeid>
+  </entry>
+  <entry>
+    <title>1 last shot from Milfordsound</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6881658245/"/>
+    <id>tag:flickr.com,2005:/photo/6881658245</id>
+    <published>2012-02-15T16:49:25Z</published>
+    <updated>2012-02-15T16:49:25Z</updated>
+    <flickr:date_taken>2011-04-25T04:57:10-08:00</flickr:date_taken>
+    <dc:date.Taken>2011-04-25T04:57:10-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6881658245/" title="1 last shot from Milfordsound"&gt;&lt;img src="http://farm8.staticflickr.com/7052/6881658245_a545a83bd2_m.jpg" width="240" height="159" alt="1 last shot from Milfordsound" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;* Explore FP *&lt;br /&gt;
+&lt;br /&gt;
+thanks for all comments and favs&lt;/p&gt;</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7052/6881658245_a545a83bd2_b.jpg"/>
+    <category term="newzealand" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="mountain" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="lake" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="nature" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="2011" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="landscapephotography" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="visipix" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>-44.685192 167.918128</georss:point>
+    <geo:lat>-44.685192</geo:lat>
+    <geo:long>167.918128</geo:long>
+    <woe:woeid>2349531</woe:woeid>
+  </entry>
+  <entry>
+    <title>2 tops</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6876436007/"/>
+    <id>tag:flickr.com,2005:/photo/6876436007</id>
+    <published>2012-02-14T17:26:01Z</published>
+    <updated>2012-02-14T17:26:01Z</updated>
+    <flickr:date_taken>2011-04-25T04:46:54-08:00</flickr:date_taken>
+    <dc:date.Taken>2011-04-25T04:46:54-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6876436007/" title="2 tops"&gt;&lt;img src="http://farm8.staticflickr.com/7054/6876436007_6132b10633_m.jpg" width="240" height="159" alt="2 tops" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;* Explore FP *&lt;br /&gt;
+&lt;br /&gt;
+thanks for all comments and favs&lt;/p&gt;</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7054/6876436007_6132b10633_b.jpg"/>
+    <category term="newzealand" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="landscape" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="2011" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="landscapephotography" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>-44.671509 167.926744</georss:point>
+    <geo:lat>-44.671509</geo:lat>
+    <geo:long>167.926744</geo:long>
+    <woe:woeid>2349531</woe:woeid>
+  </entry>
+  <entry>
+    <title>highway</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6862308427/"/>
+    <id>tag:flickr.com,2005:/photo/6862308427</id>
+    <published>2012-02-12T13:05:23Z</published>
+    <updated>2012-02-12T13:05:23Z</updated>
+    <flickr:date_taken>2011-11-18T19:09:53-08:00</flickr:date_taken>
+    <dc:date.Taken>2011-11-18T19:09:53-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6862308427/" title="highway"&gt;&lt;img src="http://farm8.staticflickr.com/7041/6862308427_fa61c7e863_m.jpg" width="165" height="240" alt="highway" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7041/6862308427_fa61c7e863_b.jpg"/>
+    <category term="city" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="urban" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="night" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="singapore" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="cityscape" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="2011" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="landscapephotography" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>1.283533 103.859746</georss:point>
+    <geo:lat>1.283533</geo:lat>
+    <geo:long>103.859746</geo:long>
+    <woe:woeid>1062617</woe:woeid>
+  </entry>
+  <entry>
+    <title>road to Milfordsound</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6725713701/"/>
+    <id>tag:flickr.com,2005:/photo/6725713701</id>
+    <published>2012-01-19T14:38:56Z</published>
+    <updated>2012-01-19T14:38:56Z</updated>
+    <flickr:date_taken>2011-04-25T08:34:59-08:00</flickr:date_taken>
+    <dc:date.Taken>2011-04-25T08:34:59-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6725713701/" title="road to Milfordsound"&gt;&lt;img src="http://farm8.staticflickr.com/7030/6725713701_de394295ff_m.jpg" width="240" height="160" alt="road to Milfordsound" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7030/6725713701_de394295ff_b.jpg"/>
+    <category term="" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>-44.762773 167.969761</georss:point>
+    <geo:lat>-44.762773</geo:lat>
+    <geo:long>167.969761</geo:long>
+    <woe:woeid>15021750</woe:woeid>
+  </entry>
+  <entry>
+    <title>Mt. Ekmond</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6701569741/"/>
+    <id>tag:flickr.com,2005:/photo/6701569741</id>
+    <published>2012-01-15T15:52:12Z</published>
+    <updated>2012-01-15T15:52:12Z</updated>
+    <flickr:date_taken>2011-04-29T14:30:43-08:00</flickr:date_taken>
+    <dc:date.Taken>2011-04-29T14:30:43-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6701569741/" title="Mt. Ekmond"&gt;&lt;img src="http://farm8.staticflickr.com/7141/6701569741_afd0be2a94_m.jpg" width="240" height="160" alt="Mt. Ekmond" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7141/6701569741_afd0be2a94_b.jpg"/>
+    <category term="" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>-39.307642 174.099661</georss:point>
+    <geo:lat>-39.307642</geo:lat>
+    <geo:long>174.099661</geo:long>
+    <woe:woeid>28643242</woe:woeid>
+  </entry>
+  <entry>
+    <title>VRT_1697.jpg</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6681419369/"/>
+    <id>tag:flickr.com,2005:/photo/6681419369</id>
+    <published>2012-01-11T23:28:08Z</published>
+    <updated>2012-01-11T23:28:08Z</updated>
+    <flickr:date_taken>2011-06-19T06:25:48-08:00</flickr:date_taken>
+    <dc:date.Taken>2011-06-19T06:25:48-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6681419369/" title="VRT_1697.jpg"&gt;&lt;img src="http://farm8.staticflickr.com/7154/6681419369_ec1abfcfef_m.jpg" width="240" height="172" alt="VRT_1697.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7154/6681419369_ec1abfcfef_b.jpg"/>
+    <category term="" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>22.278106 114.146854</georss:point>
+    <geo:lat>22.278106</geo:lat>
+    <geo:long>114.146854</geo:long>
+    <woe:woeid>26779871</woe:woeid>
+  </entry>
+  <entry>
+    <title>Finally, i have a chance to work on panorama of this scene</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6652933553/"/>
+    <id>tag:flickr.com,2005:/photo/6652933553</id>
+    <published>2012-01-07T14:42:56Z</published>
+    <updated>2012-01-07T14:42:56Z</updated>
+    <flickr:date_taken>2011-06-19T06:43:46-08:00</flickr:date_taken>
+    <dc:date.Taken>2011-06-19T06:43:46-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6652933553/" title="Finally, i have a chance to work on panorama of this scene"&gt;&lt;img src="http://farm8.staticflickr.com/7157/6652933553_7ec3b71ec3_m.jpg" width="240" height="133" alt="Finally, i have a chance to work on panorama of this scene" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7157/6652933553_7ec3b71ec3_b.jpg"/>
+    <category term="" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>22.278106 114.146854</georss:point>
+    <geo:lat>22.278106</geo:lat>
+    <geo:long>114.146854</geo:long>
+    <woe:woeid>26779871</woe:woeid>
+  </entry>
+  <entry>
+    <title>crop-circle creating!</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6530001457/"/>
+    <id>tag:flickr.com,2005:/photo/6530001457</id>
+    <published>2011-12-18T08:25:38Z</published>
+    <updated>2011-12-18T08:25:38Z</updated>
+    <flickr:date_taken>2011-04-24T09:51:44-08:00</flickr:date_taken>
+    <dc:date.Taken>2011-04-24T09:51:44-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6530001457/" title="crop-circle creating!"&gt;&lt;img src="http://farm8.staticflickr.com/7017/6530001457_cb5a65fd46_m.jpg" width="180" height="240" alt="crop-circle creating!" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7017/6530001457_cb5a65fd46_b.jpg"/>
+    <category term="" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>-45.435328 167.776138</georss:point>
+    <geo:lat>-45.435328</geo:lat>
+    <geo:long>167.776138</geo:long>
+    <woe:woeid>2350776</woe:woeid>
+  </entry>
+  <entry>
+    <title>spread the wings n fly</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6521200013/"/>
+    <id>tag:flickr.com,2005:/photo/6521200013</id>
+    <published>2011-12-16T15:56:03Z</published>
+    <updated>2011-12-16T15:56:03Z</updated>
+    <flickr:date_taken>2011-04-26T05:36:28-08:00</flickr:date_taken>
+    <dc:date.Taken>2011-04-26T05:36:28-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6521200013/" title="spread the wings n fly"&gt;&lt;img src="http://farm8.staticflickr.com/7006/6521200013_df7a818f01_m.jpg" width="240" height="160" alt="spread the wings n fly" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7006/6521200013_df7a818f01_b.jpg"/>
+    <category term="" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>-44.678156 169.124963</georss:point>
+    <geo:lat>-44.678156</geo:lat>
+    <geo:long>169.124963</geo:long>
+    <woe:woeid>2350110</woe:woeid>
+  </entry>
+  <entry>
+    <title>just dig out from my hard drive</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6520301019/"/>
+    <id>tag:flickr.com,2005:/photo/6520301019</id>
+    <published>2011-12-16T11:31:41Z</published>
+    <updated>2011-12-16T11:31:41Z</updated>
+    <flickr:date_taken>2011-04-24T09:25:02-08:00</flickr:date_taken>
+    <dc:date.Taken>2011-04-24T09:25:02-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6520301019/" title="just dig out from my hard drive"&gt;&lt;img src="http://farm8.staticflickr.com/7168/6520301019_17a1bbdcbb_m.jpg" width="240" height="135" alt="just dig out from my hard drive" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7168/6520301019_17a1bbdcbb_b.jpg"/>
+    <category term="" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>-45.542895 167.942902</georss:point>
+    <geo:lat>-45.542895</geo:lat>
+    <geo:long>167.942902</geo:long>
+    <woe:woeid>2350887</woe:woeid>
+  </entry>
+  <entry>
+    <title>Promenade... w/ reflection</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6505076803/"/>
+    <id>tag:flickr.com,2005:/photo/6505076803</id>
+    <published>2011-12-13T13:48:15Z</published>
+    <updated>2011-12-13T13:48:15Z</updated>
+    <flickr:date_taken>2009-08-22T19:05:38-08:00</flickr:date_taken>
+    <dc:date.Taken>2009-08-22T19:05:38-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6505076803/" title="Promenade... w/ reflection"&gt;&lt;img src="http://farm8.staticflickr.com/7020/6505076803_8a8cfeb8d1_m.jpg" width="240" height="181" alt="Promenade... w/ reflection" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7020/6505076803_8a8cfeb8d1_b.jpg"/>
+    <category term="" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>22.284112 114.172024</georss:point>
+    <geo:lat>22.284112</geo:lat>
+    <geo:long>114.172024</geo:long>
+    <woe:woeid>2165352</woe:woeid>
+  </entry>
+  <entry>
+    <title>sunset at Mt.Taranaki</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6504363151/"/>
+    <id>tag:flickr.com,2005:/photo/6504363151</id>
+    <published>2011-12-13T10:08:27Z</published>
+    <updated>2011-12-13T10:08:27Z</updated>
+    <flickr:date_taken>2011-04-29T13:19:03-08:00</flickr:date_taken>
+    <dc:date.Taken>2011-04-29T13:19:03-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6504363151/" title="sunset at Mt.Taranaki"&gt;&lt;img src="http://farm8.staticflickr.com/7012/6504363151_acea545e6c_m.jpg" width="240" height="160" alt="sunset at Mt.Taranaki" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7012/6504363151_acea545e6c_b.jpg"/>
+    <category term="newzealand" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="nature" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="landscape" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="2011" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="landscapephotography" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>-39.289217 174.50498</georss:point>
+    <geo:lat>-39.289217</geo:lat>
+    <geo:long>174.50498</geo:long>
+    <woe:woeid>2348434</woe:woeid>
+  </entry>
+  <entry>
+    <title>Shine : Shrine</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6499059455/"/>
+    <id>tag:flickr.com,2005:/photo/6499059455</id>
+    <published>2011-12-12T13:52:19Z</published>
+    <updated>2011-12-12T13:52:19Z</updated>
+    <flickr:date_taken>2010-10-23T08:02:05-08:00</flickr:date_taken>
+    <dc:date.Taken>2010-10-23T08:02:05-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6499059455/" title="Shine : Shrine"&gt;&lt;img src="http://farm8.staticflickr.com/7018/6499059455_e4bcb35340_m.jpg" width="240" height="161" alt="Shine : Shrine" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7018/6499059455_e4bcb35340_b.jpg"/>
+    <category term="china" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="city" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="landscape" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="shangrila" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="2010" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="landscapephotography" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>26.867032 100.153598</georss:point>
+    <geo:lat>26.867032</geo:lat>
+    <geo:long>100.153598</geo:long>
+    <woe:woeid>12578016</woe:woeid>
+  </entry>
+  <entry>
+    <title>a night at Milford sound</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6466503705/"/>
+    <id>tag:flickr.com,2005:/photo/6466503705</id>
+    <published>2011-12-06T16:21:07Z</published>
+    <updated>2011-12-06T16:21:07Z</updated>
+    <flickr:date_taken>2011-04-25T02:05:35-08:00</flickr:date_taken>
+    <dc:date.Taken>2011-04-25T02:05:35-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6466503705/" title="a night at Milford sound"&gt;&lt;img src="http://farm8.staticflickr.com/7023/6466503705_9a2175c971_m.jpg" width="240" height="177" alt="a night at Milford sound" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;seems my previous photos has been reduce to 720 px only&lt;br /&gt;
+&lt;br /&gt;
+re-post again.&lt;br /&gt;
+&lt;br /&gt;
+thanks everyone, My super honor to be on Explore&lt;br /&gt;
+&lt;br /&gt;
+* Explore #2 *.&lt;/p&gt;</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7023/6466503705_9a2175c971_b.jpg"/>
+    <category term="newzealand" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="lake" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="nature" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="night" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="landscape" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="star" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="startrail" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="2011" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="landscapephotography" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>-44.671509 167.926744</georss:point>
+    <geo:lat>-44.671509</geo:lat>
+    <geo:long>167.926744</geo:long>
+    <woe:woeid>2349531</woe:woeid>
+  </entry>
+  <entry>
+    <title>HONG KONG  today</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6446392729/"/>
+    <id>tag:flickr.com,2005:/photo/6446392729</id>
+    <published>2011-12-03T12:55:53Z</published>
+    <updated>2011-12-03T12:55:53Z</updated>
+    <flickr:date_taken>2011-12-03T17:49:05-08:00</flickr:date_taken>
+    <dc:date.Taken>2011-12-03T17:49:05-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6446392729/" title="HONG KONG  today"&gt;&lt;img src="http://farm8.staticflickr.com/7001/6446392729_23c2c35c0e_m.jpg" width="240" height="160" alt="HONG KONG  today" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7001/6446392729_23c2c35c0e_b.jpg"/>
+    <category term="city" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="urban" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="landscape" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="hongkong" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="cityscape" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="view" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="2011" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="landscapephotography" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>22.270094 114.175736</georss:point>
+    <geo:lat>22.270094</geo:lat>
+    <geo:long>114.175736</geo:long>
+    <woe:woeid>56042393</woe:woeid>
+  </entry>
+  <entry>
+    <title>rise in da middle</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/coolbiere/6399773157/"/>
+    <id>tag:flickr.com,2005:/photo/6399773157</id>
+    <published>2011-11-25T14:28:19Z</published>
+    <updated>2011-11-25T14:28:19Z</updated>
+    <flickr:date_taken>2011-11-20T07:11:39-08:00</flickr:date_taken>
+    <dc:date.Taken>2011-11-20T07:11:39-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href="http://www.flickr.com/people/coolbiere/"&gt;CoolbieRe&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/coolbiere/6399773157/" title="rise in da middle"&gt;&lt;img src="http://farm8.staticflickr.com/7025/6399773157_c1416947cf_m.jpg" width="240" height="160" alt="rise in da middle" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Last of the set..&lt;/p&gt;</content>
+    <author>
+      <name>CoolbieRe</name>
+      <uri>http://www.flickr.com/people/coolbiere/</uri>
+      <flickr:nsid>90313708@N00</flickr:nsid>
+      <flickr:buddyicon>http://farm4.staticflickr.com/3378/buddyicons/90313708@N00.jpg?1327052857#90313708@N00</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7025/6399773157_c1416947cf_b.jpg"/>
+    <category term="urban" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="architecture" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="singapore" scheme="http://www.flickr.com/photos/tags/"/>
+    <category term="cityscape" scheme="http://www.flickr.com/photos/tags/"/>
+    <georss:point>1.285222 103.853888</georss:point>
+    <geo:lat>1.285222</geo:lat>
+    <geo:long>103.853888</geo:long>
+    <woe:woeid>1062617</woe:woeid>
+  </entry>
+</feed>

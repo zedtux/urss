@@ -490,18 +490,19 @@ The difference between -- and : is huge for me [...]"""
   end
 
   describe "check README.md example" do
-    it "should not failed! =)" do
-      rss = Urss.at("http://www.ruby-lang.org/en/feeds/news.rss")
-      rss.title.should == "Ruby News"
-      rss.url.should == "http://www.ruby-lang.org/en/feeds/news.rss/"
-      rss.description.should == "The latest news from Ruby-Lang.org."
-      rss.updated_at.should be_empty
-      rss.entries.size.should be 10
-      rss.entries.first.title.should == "Ruby 1.9.3-p194 is released"
-      rss.entries.first.created_at.should == "Fri, 20 Apr 2012 03:19:04 GMT"
-      rss.entries.first.url.should == "http://www.ruby-lang.org/en/news/2012/04/20/ruby-1-9-3-p194-is-released/"
-      rss.entries.first.content.should ==
-      """<p>Ruby 1.9.3-p194 is released.</p><p>This release include Security Fix for RubyGems: SSL server verification failure for remote repository.
+    describe "Simple RSS" do
+      it "should not fail! =)" do
+        rss = Urss.at("http://www.ruby-lang.org/en/feeds/news.rss")
+        rss.title.should == "Ruby News"
+        rss.url.should == "http://www.ruby-lang.org/en/feeds/news.rss/"
+        rss.description.should == "The latest news from Ruby-Lang.org."
+        rss.updated_at.should be_empty
+        rss.entries.size.should be 10
+        rss.entries.first.title.should == "Ruby 1.9.3-p194 is released"
+        rss.entries.first.created_at.should == "Fri, 20 Apr 2012 03:19:04 GMT"
+        rss.entries.first.url.should == "http://www.ruby-lang.org/en/news/2012/04/20/ruby-1-9-3-p194-is-released/"
+        rss.entries.first.content.should ==
+        """<p>Ruby 1.9.3-p194 is released.</p><p>This release include Security Fix for RubyGems: SSL server verification failure for remote repository.
 And many bugs are fixed in this release.</p> <h2><a name=\"label-0\" id=\"label-0\">Security Fix for RubyGems: SSL server verification failure for remote repository</a></h2><!-- RDLabel: \"Security Fix for RubyGems: SSL server verification failure for remote repository\" --><p>This release includes two security fixes in RubyGems.</p><ul>
 <li>Turn on verification of server SSL certs</li>
 <li>Disallow redirects from https to http</li>
@@ -535,6 +536,33 @@ certificate checks, but this is not recommended.\"</p><p>Credit to John Firebaug
 <li>SHA256: 77474cfb92385b3a0b4c346553048bc65bfe68d4f220128329671a0234cb124d</li>
 </ul></li>
 </ul>"""
+      end
+    end
+    describe "RSS With medias" do
+      it "should also not fail! =)" do
+        rss = Urss.at("http://api.flickr.com/services/feeds/photos_public.gne?id=90313708@N00&lang=en-us&format=rss_200")
+        rss.class.should be Urss::Feed::Rss
+        rss.title.should == "Uploads from CoolbieRe"
+        rss.updated_at.should == "Mon, 23 Apr 2012 09:48:57 -0700"
+        rss.entries.first.title.should == "vertical panorama"
+        rss.entries.first.medias.size.should be 1
+        rss.entries.first.medias.first.title.should == "vertical panorama"
+        rss.entries.first.medias.first.thumbnail_url.should == "http://farm9.staticflickr.com/8159/6960539484_56665aba46_s.jpg"
+        rss.entries.first.medias.first.content_url.should == "http://farm9.staticflickr.com/8159/6960539484_56665aba46_b.jpg"
+      end
+    end
+    describe "Atom With medias" do
+      it "should also not fail! =)" do
+        rss = Urss.at("http://api.flickr.com/services/feeds/photos_public.gne?id=90313708@N00&lang=en-us&format=atom")
+        rss.class.should be Urss::Feed::Atom
+        rss.title.should == "Uploads from CoolbieRe"
+        rss.updated_at.should == "2012-04-23T16:48:57Z"
+        rss.entries.first.title.should == "vertical panorama"
+        rss.entries.first.medias.size.should be 1
+        rss.entries.first.medias.first.title.should be_nil
+        rss.entries.first.medias.first.thumbnail_url.should be_nil
+        rss.entries.first.medias.first.content_url.should == "http://farm9.staticflickr.com/8159/6960539484_56665aba46_b.jpg"
+      end
     end
   end
 end

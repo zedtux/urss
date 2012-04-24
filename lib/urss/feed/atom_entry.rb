@@ -13,27 +13,8 @@ class Urss::Feed::Atom::Entry < Urss::Feed::Entry
     entry.author = nokogiri_instance.xpath("./#{namespace}author/#{namespace}name").text
     entry.content = nokogiri_instance.xpath("./description").text
 
-    begin
-      # When having only one media:content then all media:* nodes are used to create one Urss::Media
-      # Otherwise each media:* are different Urss::Media
-      single_media = nokogiri_instance.xpath("./media:content").size == 1
-      media = nil
-      nokogiri_instance.xpath("./media:*").each do |media_attributes|
-        if single_media
-          media = Urss::Media.new if media.nil?
-          media.update(media_attributes)
-        else
-          media = Urss::Media.new
-          media.update(media_attributes)
-          media_attributes.children.select{|child| child.class == Nokogiri::XML::Element}.each do |element|
-            media.update(element)
-          end
-          entry.medias << media
-        end
-      end
-      entry.medias << media if single_media
-    rescue Nokogiri::XML::XPath::SyntaxError
-      # No media element
+    if media_url = nokogiri_instance.xpath("./#{namespace}link[@rel='enclosure']").attr("href").value
+      entry.medias << Urss::Media.new(:content_url => media_url)
     end
 
     entry

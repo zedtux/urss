@@ -62,6 +62,26 @@ rss.entries.first.medias.first.content_url
 #=> http://farm9.staticflickr.com/8159/6960539484_56665aba46_b.jpg
 ````
 
+### Atom With medias
+
+````ruby
+rss = Urss.at("http://api.flickr.com/services/feeds/photos_public.gne?id=90313708@N00&lang=en-us&format=atom")
+rss.title
+#=> "Uploads from CoolbieRe"
+rss.updated_at
+#=> "2012-04-23T16:48:57Z"
+rss.entries.first.title
+#=> "vertical panorama"
+rss.entries.first.medias.size
+#=> 1
+rss.entries.first.medias.first.title
+#=> nil
+rss.entries.first.medias.first.thumbnail_url
+#=> nil
+rss.entries.first.medias.first.content_url
+#=> http://farm9.staticflickr.com/8159/6960539484_56665aba46_b.jpg
+````
+
 ## Contributing
 
 1. Fork it
