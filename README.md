@@ -36,6 +36,8 @@ rss.entries.first.created_at
 #=> "Fri, 20 Apr 2012 03:19:04 GMT"
 rss.entries.first.url
 #=> "http://www.ruby-lang.org/en/news/2012/04/20/ruby-1-9-3-p194-is-released/"
+rss.entries.first.content.truncate(200)
+#=> "<p>Ruby 1.9.2-p320 is released.</p><p>This release include Security Fix for RubyGems: SSL server verification failure for remote repository.\nAnd many bugs are fixed in this release.</p> <h2><a name..."
 ````
 
 ## Contributing
