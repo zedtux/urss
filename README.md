@@ -18,6 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
+### Simple RSS
+
 ````ruby
 rss = Urss.at("http://www.ruby-lang.org/en/feeds/news.rss")
 rss.title
@@ -38,6 +40,26 @@ rss.entries.first.url
 #=> "http://www.ruby-lang.org/en/news/2012/04/20/ruby-1-9-3-p194-is-released/"
 rss.entries.first.content.truncate(200)
 #=> "<p>Ruby 1.9.2-p320 is released.</p><p>This release include Security Fix for RubyGems: SSL server verification failure for remote repository.\nAnd many bugs are fixed in this release.</p> <h2><a name..."
+````
+
+### RSS With medias
+
+````ruby
+rss = Urss.at("http://api.flickr.com/services/feeds/photos_public.gne?id=90313708@N00&lang=en-us&format=rss_200")
+rss.title
+#=> "Uploads from CoolbieRe"
+rss.updated_at
+#=> "Mon, 23 Apr 2012 09:48:57 -0700"
+rss.entries.first.title
+#=> "vertical panorama"
+rss.entries.first.medias.size
+#=> 1
+rss.entries.first.medias.first.title
+#=> "vertical panorama"
+rss.entries.first.medias.first.thumbnail_url
+#=> http://farm9.staticflickr.com/8159/6960539484_56665aba46_s.jpg
+rss.entries.first.medias.first.content_url
+#=> http://farm9.staticflickr.com/8159/6960539484_56665aba46_b.jpg
 ````
 
 ## Contributing
