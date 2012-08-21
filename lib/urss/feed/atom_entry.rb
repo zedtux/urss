@@ -11,10 +11,17 @@ class Urss::Feed::Atom::Entry < Urss::Feed::Entry
     entry.url = nokogiri_instance.xpath("./#{namespace}link[@rel='alternate']").attr("href").value
     entry.created_at = nokogiri_instance.xpath("./#{namespace}published").text
     entry.author = nokogiri_instance.xpath("./#{namespace}author/#{namespace}name").text
-    entry.content = nokogiri_instance.xpath("./description").text
+    entry.content = case nokogiri_instance.xpath("./#{namespace}content").attr("type").value
+    when "xhtml", "html"
+      nokogiri_instance.xpath("./#{namespace}content").inner_html
+    else
+      nokogiri_instance.xpath("./#{namespace}content").text
+    end
 
-    if media_url = nokogiri_instance.xpath("./#{namespace}link[@rel='enclosure']").attr("href").value
-      entry.medias << Urss::Media.new(:content_url => media_url)
+    unless (media = nokogiri_instance.xpath("./#{namespace}link[@rel='enclosure']")).empty?
+      if media_url = media.attr("href").value
+        entry.medias << Urss::Media.new(:content_url => media_url)
+      end
     end
 
     entry

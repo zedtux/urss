@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns:im="http://itunes.apple.com/rss" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>http://itunes.apple.com/lu/rss/topalbums/limit=10/xml</id>
+  <title>iTunes Store: Top Albums</title>
+  <updated>2012-08-20T10:51:05-07:00</updated>
+  <link rel="alternate" type="text/html" href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?id=29763&amp;popId=11&amp;s=143451"/>
+  <link rel="self" href="http://itunes.apple.com/lu/rss/topalbums/limit=10/xml"/>
+  <icon>http://itunes.apple.com/favicon.ico</icon>
+  <author>
+    <name>iTunes Store</name>
+    <uri>http://www.apple.com/uk/itunes/</uri>
+  </author>
+  <rights>Copyright 2008 Apple Inc.</rights>
+  <entry>
+    <updated>2012-08-20T10:51:05-07:00</updated>
+    <id im:id="538385017">http://itunes.apple.com/lu/album/nrj-party-summer-edition-2012/id538385017?uo=2</id>
+    <title>NRJ Party Summer Edition - 2012 - Various Artists</title>
+    <im:name>NRJ Party Summer Edition - 2012</im:name>
+    <link rel="alternate" type="text/html" href="http://itunes.apple.com/lu/album/nrj-party-summer-edition-2012/id538385017?uo=2"/>
+    <im:contentType term="Music" label="Music">
+      <im:contentType term="Album" label="Album"/>
+    </im:contentType>
+    <category im:id="17" term="Dance" scheme="http://itunes.apple.com/lu/genre/music-dance/id17?uo=2" label="Dance"/>
+    <im:artist>Various Artists</im:artist>
+    <im:price amount="9.99000" currency="EUR">9,99 €</im:price>
+    <im:image height="55">http://a5.mzstatic.com/us/r1000/085/Music/v4/81/12/01/811201e7-96da-4c95-4fc1-c85ac3e716b1/5414165055532.55x55-70.jpg</im:image>
+    <im:image height="60">http://a2.mzstatic.com/us/r1000/085/Music/v4/81/12/01/811201e7-96da-4c95-4fc1-c85ac3e716b1/5414165055532.60x60-50.jpg</im:image>
+    <im:image height="170">http://a1.mzstatic.com/us/r1000/085/Music/v4/81/12/01/811201e7-96da-4c95-4fc1-c85ac3e716b1/5414165055532.170x170-75.jpg</im:image>
+    <rights>℗ 2012 541 / N.E.W.S.</rights>
+    <im:releaseDate label="29 June 2012">2012-06-29T00:00:00-07:00</im:releaseDate>
+    <im:itemCount>25</im:itemCount>
+    <content type="html">&lt;table border="0" width="100%"&gt;
+    &lt;tr&gt;
+        &lt;td&gt;
+            &lt;table border="0" width="100%" cellspacing="0" cellpadding="0"&gt;
+                &lt;tr valign="top" align="left"&gt;
+                    
+                        &lt;td align="center" width="166" valign="top"&gt;
+                            &lt;a href="http://itunes.apple.com/lu/album/nrj-party-summer-edition-2012/id538385017?uo=2"&gt;&lt;img border="0" alt="NRJ Party Summer Edition - 2012artwork" src="http://a1.mzstatic.com/us/r1000/085/Music/v4/81/12/01/811201e7-96da-4c95-4fc1-c85ac3e716b1/5414165055532.170x170-75.jpg" /&gt;&lt;/a&gt;
+                        &lt;/td&gt;
+                        &lt;td width="10"&gt;&lt;img alt="" width="10" height="1" src="http://r.mzstatic.com/images/spacer.gif" /&gt;&lt;/td&gt;
+                    	&lt;td width="95%"&gt;
+                    
+                    
+                        &lt;b&gt;&lt;a href="http://itunes.apple.com/lu/album/nrj-party-summer-edition-2012/id538385017?uo=2"&gt;NRJ Party Summer Edition - 2012&lt;/a&gt;&lt;/b&gt;&lt;br/&gt;
+                        
+                        
+                        
+                        
+
+                        Various Artists
+
+                       &lt;font size="2" face="Helvetica,Arial,Geneva,Swiss,SunSans-Regular"&gt;
+						
+						 	&lt;br/&gt;
+                            &lt;b&gt;Genre:&lt;/b&gt; &lt;a href="http://itunes.apple.com/lu/genre/music-dance/id17?uo=2"&gt;Dance&lt;/a&gt;
+                        
+						 	&lt;br/&gt;
+                            &lt;b&gt;Price:&lt;/b&gt; 9,99 €
+                        
+						 	&lt;br/&gt;
+                            &lt;b&gt;Release Date:&lt;/b&gt; 29 June 2012
+                        
+                        &lt;/font&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;
+            
+            
+            
+                &lt;font size="2" face="Helvetica,Arial,Geneva,Swiss,SunSans-Regular"&gt; &amp;#169; ℗ 2012 541 / N.E.W.S.&lt;/font&gt;
+	        
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+   </content>
+  </entry>
+</feed>

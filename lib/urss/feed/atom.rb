@@ -13,6 +13,7 @@ class Urss::Feed::Atom < Urss::Feed
     feed_rss.url = nokogiri_instance.xpath("//#{namespace}#{root_node}/#{namespace}link[@rel='self']").attr("href").value
     feed_rss.description = nokogiri_instance.xpath("//#{namespace}#{root_node}/#{namespace}subtitle").text.strip
     feed_rss.updated_at = nokogiri_instance.xpath("//#{namespace}#{root_node}/#{namespace}updated").text
+    feed_rss.author = nokogiri_instance.xpath("//#{namespace}#{root_node}/#{namespace}author/#{namespace}name").text
     nokogiri_instance.xpath("//#{namespace}entry").each {|item| feed_rss.entries << Urss::Feed::Atom::Entry.build(item, namespace)}
 
     feed_rss

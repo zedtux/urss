@@ -16,5 +16,5 @@ class Urss::Feed::Entry
     self.content = nil
     self.medias = []
   end
-  
+
 end

@@ -27,6 +27,11 @@ describe Urss::Feed do
       subject.should respond_to(:entries)
       subject.should respond_to(:entries=)
     end
+
+    it "should have an attribute :author" do
+      subject.should respond_to(:author)
+      subject.should respond_to(:author=)
+    end
   end
 
 end

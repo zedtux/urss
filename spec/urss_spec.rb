@@ -108,8 +108,8 @@ describe Urss do
                 end
               end
               describe "author" do
-                it "should be empty" do
-                  @first_parsed_rss.author.should be_empty
+                it "should be nil" do
+                  @first_parsed_rss.author.should be_nil
                 end
               end
               describe "categories" do
@@ -418,68 +418,209 @@ The difference between -- and : is huge for me [...]"""
     end
 
     context "Atom" do
-      context "when parsing the atom.xml example file at http://example.org/feed.atom" do
-        before { @parsed_rss = subject.at("http://example.org/feed.atom") }
-        it "should return an instance of Urss::Feed::Atom" do
-          @parsed_rss.should be_an_instance_of(Urss::Feed::Atom)
+      context "with xhtml entry content" do
+        context "when parsing the atom.xml example file at http://example.org/feed.atom" do
+          before { @parsed_rss = subject.at("http://example.org/feed.atom") }
+          it "should return an instance of Urss::Feed::Atom" do
+            @parsed_rss.should be_an_instance_of(Urss::Feed::Atom)
+          end
+          describe "Urss::Rss" do
+            describe "title" do
+              it "should return \"dive into mark\"" do
+                @parsed_rss.title.should == "dive into mark"
+              end
+            end
+            describe "url" do
+              it "should return \"http://example.org/feed.atom\"" do
+                @parsed_rss.url.should == "http://example.org/feed.atom"
+              end
+            end
+            describe "description" do
+              it "should return \"A emlot/em of effort\n    went into making this effortless\"" do
+                @parsed_rss.description.should == "A emlot/em of effort\n    went into making this effortless"
+              end
+            end
+            describe "updated_at" do
+              it "should return \"2005-07-31T12:29:29Z\"" do
+                @parsed_rss.updated_at.should == "2005-07-31T12:29:29Z"
+              end
+            end
+            describe "entries" do
+              describe "size" do
+                it "should be 1" do
+                  @parsed_rss.entries.size.should be 1
+                end
+              end
+              describe "first" do
+                before { @first_parsed_rss = @parsed_rss.entries.first }
+                describe "title" do
+                  it "should return \"Atom draft-07 snapshot\"" do
+                    @first_parsed_rss.title.should == "Atom draft-07 snapshot"
+                  end
+                end
+                describe "url" do
+                  it "should return \"http://example.org/2005/04/02/atom\"" do
+                    @first_parsed_rss.url.should == "http://example.org/2005/04/02/atom"
+                  end
+                end
+                describe "comments_url" do
+                  it "should be nil" do
+                    @first_parsed_rss.comments_url.should be_nil
+                  end
+                end
+                describe "created_at" do
+                  it "should return \"2003-12-13T08:29:29-04:00\"" do
+                    @first_parsed_rss.created_at.should == "2003-12-13T08:29:29-04:00"
+                  end
+                end
+                describe "author" do
+                  it "should return \"Mark Pilgrim\"" do
+                    @first_parsed_rss.author.should == "Mark Pilgrim"
+                  end
+                end
+                describe "categories" do
+                  it "should be empty" do
+                    @first_parsed_rss.categories.should be_empty
+                  end
+                end
+                describe "content" do
+                  it "should return the HTML code of the content node without transformation" do
+                    @first_parsed_rss.content.should ==
+                    """
+      <div xmlns=\"http://www.w3.org/1999/xhtml\">
+        <p><i>[Update: The Atom draft is finished.]</i></p>
+      </div>
+    """
+                  end
+                end
+              end
+            end
+          end
         end
-        describe "Urss::Rss" do
-          describe "title" do
-            it "should return \"dive into mark\"" do
-              @parsed_rss.title.should == "dive into mark"
-            end
+      end
+      context "with html entry content" do
+        context "when parsing the atom_with_html.xml example file at http://example.org/feed.atom-html" do
+          before { @parsed_rss = subject.at("http://example.org/feed.atom-html") }
+          it "should return an instance of Urss::Feed::Atom" do
+            @parsed_rss.should be_an_instance_of(Urss::Feed::Atom)
           end
-          describe "url" do
-            it "should return \"http://example.org/feed.atom\"" do
-              @parsed_rss.url.should == "http://example.org/feed.atom"
-            end
-          end
-          describe "description" do
-            it "should return \"A emlot/em of effort\n    went into making this effortless\"" do
-              @parsed_rss.description.should == "A emlot/em of effort\n    went into making this effortless"
-            end
-          end
-          describe "updated_at" do
-            it "should return \"2005-07-31T12:29:29Z\"" do
-              @parsed_rss.updated_at.should == "2005-07-31T12:29:29Z"
-            end
-          end
-          describe"entries" do
-            describe "size" do
-              it "should be 1" do
-                @parsed_rss.entries.size.should be 1
+          describe "Urss::Rss" do
+            describe "title" do
+              it "should return \"iTunes Store: Top Albums\"" do
+                @parsed_rss.title.should == "iTunes Store: Top Albums"
               end
             end
-            describe "first" do
-              before { @first_parsed_rss = @parsed_rss.entries.first }
-              describe "title" do
-                it "should return \"Atom draft-07 snapshot\"" do
-                  @first_parsed_rss.title.should == "Atom draft-07 snapshot"
+            describe "url" do
+              it "should return \"http://itunes.apple.com/lu/rss/topalbums/limit=10/xml\"" do
+                @parsed_rss.url.should == "http://itunes.apple.com/lu/rss/topalbums/limit=10/xml"
+              end
+            end
+            describe "description" do
+              it "should be empty" do
+                @parsed_rss.description.should be_empty
+              end
+            end
+            describe "updated_at" do
+              it "should return \"2012-08-20T10:51:05-07:00\"" do
+                @parsed_rss.updated_at.should == "2012-08-20T10:51:05-07:00"
+              end
+            end
+            describe "author" do
+              it "should return \"iTunes Store\"" do
+                @parsed_rss.author.should == "iTunes Store"
+              end
+            end
+            describe "entries" do
+              describe "size" do
+                it "should be 1" do
+                  @parsed_rss.entries.size.should be 1
                 end
               end
-              describe "url" do
-                it "should return \"http://example.org/2005/04/02/atom\"" do
-                  @first_parsed_rss.url.should == "http://example.org/2005/04/02/atom"
+              describe "first" do
+                before { @first_parsed_rss = @parsed_rss.entries.first }
+                describe "title" do
+                  it "should return \"NRJ Party Summer Edition - 2012 - Various Artists\"" do
+                    @first_parsed_rss.title.should == "NRJ Party Summer Edition - 2012 - Various Artists"
+                  end
                 end
-              end
-              describe "comments_url" do
-                it "should be empty" do
-                  @first_parsed_rss.comments_url.should be_nil
+                describe "url" do
+                  it "should return \"http://itunes.apple.com/lu/album/nrj-party-summer-edition-2012/id538385017?uo=2\"" do
+                    @first_parsed_rss.url.should == "http://itunes.apple.com/lu/album/nrj-party-summer-edition-2012/id538385017?uo=2"
+                  end
                 end
-              end
-              describe "created_at" do
-                it "should return \"2003-12-13T08:29:29-04:00\"" do
-                  @first_parsed_rss.created_at.should == "2003-12-13T08:29:29-04:00"
+                describe "comments_url" do
+                  it "should be nil" do
+                    @first_parsed_rss.comments_url.should be_nil
+                  end
                 end
-              end
-              describe "author" do
-                it "should return \"Mark Pilgrim\"" do
-                  @first_parsed_rss.author.should == "Mark Pilgrim"
+                describe "created_at" do
+                  it "should be empty" do
+                    @first_parsed_rss.created_at.should be_empty
+                  end
                 end
-              end
-              describe "categories" do
-                it "should be empty" do
-                  @first_parsed_rss.categories.should be_empty
+                describe "author" do
+                  it "should return \"iTunes Store\" (the feed author as there is no entry author)" do
+                    @first_parsed_rss.author.should == "iTunes Store"
+                  end
+                end
+                describe "categories" do
+                  it "should be empty" do
+                    @first_parsed_rss.categories.should be_empty
+                  end
+                end
+                describe "content" do
+                  it "should return the HTML code of the content node without transformation" do
+                    @first_parsed_rss.content.should ==
+                    """&lt;table border=\"0\" width=\"100%\"&gt;
+    &lt;tr&gt;
+        &lt;td&gt;
+            &lt;table border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+                &lt;tr valign=\"top\" align=\"left\"&gt;
+                    
+                        &lt;td align=\"center\" width=\"166\" valign=\"top\"&gt;
+                            &lt;a href=\"http://itunes.apple.com/lu/album/nrj-party-summer-edition-2012/id538385017?uo=2\"&gt;&lt;img border=\"0\" alt=\"NRJ Party Summer Edition - 2012artwork\" src=\"http://a1.mzstatic.com/us/r1000/085/Music/v4/81/12/01/811201e7-96da-4c95-4fc1-c85ac3e716b1/5414165055532.170x170-75.jpg\" /&gt;&lt;/a&gt;
+                        &lt;/td&gt;
+                        &lt;td width=\"10\"&gt;&lt;img alt=\"\" width=\"10\" height=\"1\" src=\"http://r.mzstatic.com/images/spacer.gif\" /&gt;&lt;/td&gt;
+                    	&lt;td width=\"95%\"&gt;
+                    
+                    
+                        &lt;b&gt;&lt;a href=\"http://itunes.apple.com/lu/album/nrj-party-summer-edition-2012/id538385017?uo=2\"&gt;NRJ Party Summer Edition - 2012&lt;/a&gt;&lt;/b&gt;&lt;br/&gt;
+                        
+                        
+                        
+                        
+
+                        Various Artists
+
+                       &lt;font size=\"2\" face=\"Helvetica,Arial,Geneva,Swiss,SunSans-Regular\"&gt;
+						
+						 	&lt;br/&gt;
+                            &lt;b&gt;Genre:&lt;/b&gt; &lt;a href=\"http://itunes.apple.com/lu/genre/music-dance/id17?uo=2\"&gt;Dance&lt;/a&gt;
+                        
+						 	&lt;br/&gt;
+                            &lt;b&gt;Price:&lt;/b&gt; 9,99 €
+                        
+						 	&lt;br/&gt;
+                            &lt;b&gt;Release Date:&lt;/b&gt; 29 June 2012
+                        
+                        &lt;/font&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;
+            
+            
+            
+                &lt;font size=\"2\" face=\"Helvetica,Arial,Geneva,Swiss,SunSans-Regular\"&gt; &amp;#169; ℗ 2012 541 / N.E.W.S.&lt;/font&gt;
+	        
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+   """
+                  end
                 end
               end
             end

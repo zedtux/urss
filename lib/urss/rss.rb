@@ -17,6 +17,9 @@ class Urss::Rss
         when "feed"
           Urss::Feed::Atom
         end.build(root_instance, namespace, root)
+
+        rss_object.finalize!
+
         return rss_object
         break
       end
