@@ -1,3 +1,6 @@
+before_install:
+  - gem install nokogiri -- --with-cflags='--std=gnu99'
+
 rvm:
   - ruby-head
   - 1.9.3
