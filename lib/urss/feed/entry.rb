@@ -1,7 +1,7 @@
 class Urss::Feed::Entry
 
   # ~~~~ Attributes ~~~~
-  attr_accessor :title, :url, :comments_url, :created_at, :author, :categories, :content, :medias
+  attr_accessor :title, :url, :comments_url, :created_at, :author, :categories, :content, :medias, :enclosure
 
   # ~~~~ Class methods ~~~~
 
@@ -15,6 +15,7 @@ class Urss::Feed::Entry
     self.categories = []
     self.content = nil
     self.medias = []
+    self.enclosure = nil
   end
 
 end
