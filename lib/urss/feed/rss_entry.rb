@@ -17,6 +17,7 @@ class Urss::Feed::Rss::Entry < Urss::Feed::Entry
     entry.author = nokogiri_instance.xpath("./dc:creator", nokogiri_instance.namespaces).text
     entry.categories = nokogiri_instance.search("category").collect(&:text).join(", ")
     entry.content = nokogiri_instance.xpath("./description").text
+    entry.enclosure = nokogiri_instance.xpath("./enclosure").attr('url').text if nokogiri_instance.xpath("./enclosure").size > 0
 
     begin
       # When having only one media:content then all media:* nodes are used to create one Urss::Media

@@ -37,6 +37,11 @@ describe Urss::Feed::Entry do
       subject.should respond_to(:content)
       subject.should respond_to(:content=)
     end
+
+    it "should have an attribute :enclosure" do
+      subject.should respond_to(:enclosure)
+      subject.should respond_to(:enclosure=)
+    end
   end
 
 end
