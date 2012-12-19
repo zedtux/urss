@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.github.com/zedtux/gpair/master/media/developpeur_breton_logo.png" alt="Je suis un developpeyr Breton!"/>
+</p>
+
 # Urss [![Build Status](https://secure.travis-ci.org/zedtux/urss.png)](http://travis-ci.org/zedtux/urss) [![Dependency Status](https://gemnasium.com/zedtux/urss.png)](http://gemnasium.com/zedtux/urss) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/zedtux/urss) [![endorse](http://api.coderwall.com/zedtux/endorsecount.png)](http://coderwall.com/zedtux)
 
 URSS or Ultra RSS is another ruby library to parse Feed RSS that has been created because there was no existing one that support multiple media:content or media:thumbnail.
